@@ -1,0 +1,51 @@
+.maincontentSection {
+    .mainContainer {
+        margin-top: 50px;
+
+        .mainItem {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-bottom: 50px;
+            box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+
+            .mainImgContent {
+                flex: 0 0 55%;
+                align-content: center;
+                padding-left: 50px;
+
+                h4 {
+                    color: #000;
+                }
+            }
+
+            .mainImgBox {
+                flex: 0 0 45%;
+                text-align: right;
+
+                img {
+                    border-radius: 20px;
+                }
+            }
+
+            &:nth-child(even) {
+                flex-direction: row-reverse;
+
+                .mainImgContent {
+                    padding-right: 50px;
+                }
+
+                .mainImgBox {
+                    text-align: left;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+
+
+    }
+}

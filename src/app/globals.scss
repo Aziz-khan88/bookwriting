@@ -1,0 +1,585 @@
+body {
+  .container {
+    max-width: 1440px;
+  }
+
+  ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .p-100 {
+    padding: 100px 0px;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    letter-spacing: -0.238982px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: -0.165px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: -0.165px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.165px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.165px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.165px;
+    color: #707780;
+    margin-bottom: 20px;
+  }
+
+  .subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.164664px;
+    color: #04b49c;
+    margin-bottom: 10px;
+  }
+
+  .mainButton {
+    height: 55px;
+    width: 100%;
+    padding: 0px 30px;
+    border-radius: 100px;
+    color: #04b49c;
+    border: 2px solid #04b49c;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: -0.165px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    max-width: fit-content;
+
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background-color: #04b49c;
+      transition: width 0.3s ease;
+      border-radius: 0px;
+    }
+
+    &:hover:before {
+      width: 100%;
+    }
+
+    &:hover {
+      color: #fff;
+      border-color: #04b49c;
+      border: 0px;
+
+      span {
+        z-index: 1;
+        position: relative;
+      }
+    }
+  }
+
+  .sliderTestimonial {
+    .is-in-view {
+      &:not(.is-snapped) {
+        .testBoxBG {
+          transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease;
+          opacity: 0.5;
+          filter: blur(2px);
+          transform: scale(0.95);
+        }
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  body {
+    .container {
+      max-width: 1280px;
+    }
+
+    .p-100 {
+      padding: 80px 0px;
+    }
+
+    h1 {
+      font-size: 45px;
+      line-height: 60px;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-size: 35px;
+      line-height: 45px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 32px;
+      line-height: 42px;
+      margin-bottom: 20px;
+    }
+
+    h4 {
+      font-size: 28px;
+      line-height: 38px;
+      margin-bottom: 20px;
+    }
+
+    h5 {
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 27px;
+      margin-bottom: 20px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    .mainButton {
+      height: 50px;
+      width: 100%;
+      padding: 0px 35px;
+      font-size: 15px;
+      line-height: 15px;
+      min-width: 130px;
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  body {
+    .container {
+      max-width: 1200px;
+    }
+
+    .p-100 {
+      padding: 70px 0px;
+    }
+
+    h1 {
+      font-size: 38px;
+      line-height: 48px;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-size: 33px;
+      line-height: 43px;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      font-size: 26px;
+      line-height: 36px;
+      margin-bottom: 15px;
+    }
+
+    h5 {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 20px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    .mainButton {
+      height: 50px;
+      width: 100%;
+      padding: 0px 30px;
+      font-size: 15px;
+      line-height: 15px;
+      min-width: 130px;
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  body {
+    .container {
+      max-width: 1080px;
+    }
+
+    .p-100 {
+      padding: 60px 0px;
+    }
+
+    h1 {
+      font-size: 35px;
+      line-height: 45px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 28px;
+      line-height: 38px;
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      font-size: 26px;
+      line-height: 36px;
+      margin-bottom: 15px;
+    }
+
+    h5 {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 15px;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      line-height: 15px;
+    }
+
+    .mainButton {
+      height: 45px;
+      padding: 0px 25px;
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+  body {
+    .container {
+      max-width: 960px;
+    }
+
+    .p-100 {
+      padding: 50px 0px;
+    }
+
+    h1 {
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 26px;
+      line-height: 36px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 15px;
+    }
+
+    h5 {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 23px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      line-height: 15px;
+    }
+
+    .mainButton {
+      height: 45px;
+      padding: 0px 25px;
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+  body {
+    .container {
+      max-width: 750px;
+    }
+
+    .p-100 {
+      padding: 50px 0px;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 36px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 26px;
+      line-height: 36px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 15px;
+    }
+
+    h5 {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 22px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    .mainButton {
+      height: 40px;
+      padding: 0px 20px;
+      font-size: 13px;
+      line-height: 14px
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+  body {
+    .container {
+      max-width: 750px;
+    }
+
+    .p-100 {
+      padding: 50px 0px;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 36px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 26px;
+      line-height: 36px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 15px;
+    }
+
+    h5 {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 22px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    .mainButton {
+      height: 40px;
+      padding: 0px 15px;
+      font-size: 13px;
+      line-height: 14px
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  body {
+    .container {
+      max-width: 750px;
+    }
+
+    .p-100 {
+      padding: 50px 0px;
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 36px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 26px;
+      line-height: 36px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      font-size: 22px;
+      line-height: 32px;
+      margin-bottom: 15px;
+    }
+
+    h5 {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 22px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    .mainButton {
+      height: 40px;
+      padding: 0px 15px;
+      font-size: 13px;
+      line-height: 14px
+    }
+  }
+}

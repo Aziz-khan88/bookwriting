@@ -1,0 +1,614 @@
+.testimonialsSection {
+    overflow: hidden;
+
+
+    .embla {
+        margin-top: 40px;
+
+        .embla__viewport {
+            overflow: hidden;
+
+            .embla__container {
+                display: flex;
+                touch-action: pan-y pinch-zoom;
+                margin-left: calc(20px * -1);
+
+
+                .embla__slide {
+                    transform: translate3d(0, 0, 0);
+                    flex: 0 0 60%;
+                    min-width: 0;
+                    padding-left: 20px;
+
+                    .testBox {
+                        background: #FFFFFF;
+                        border: 1px solid rgba(172, 181, 190, 0.5);
+                        border-radius: 28px;
+                        padding: 30px 40px;
+                        transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease;
+
+                        .testContent {
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: -0.165px;
+                            color: #657985;
+                            margin-bottom: 30px;
+                            height: 220px;
+                            border-bottom: 1px solid #C7D3DB;
+                            padding-bottom: 20px;
+                            justify-content: center;
+                            align-items: center;
+                            display: flex;
+
+                        }
+
+                        .infoTest {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            .usesInfo {
+                                text-align: left;
+
+                                .namee {
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    line-height: 29px;
+                                    letter-spacing: -0.165px;
+                                    color: #000000;
+                                }
+
+                                .job {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 18px;
+                                    line-height: 29px;
+                                    letter-spacing: -0.165px;
+                                    color: #04b49c;
+                                }
+                            }
+
+                            .usesIcon {
+                                svg {
+                                    height: 20px;
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+
+
+                }
+
+
+            }
+        }
+
+    }
+
+    .embla_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 70px 0px 0px;
+        gap: 25px;
+
+        div {
+            cursor: pointer;
+            background-color: transparent;
+            height: 35px;
+            width: 35px;
+            display: flex;
+            justify-content: center;
+            transition: .3s linear;
+
+            align-items: center;
+            opacity: 1;
+
+            svg {
+                width: 20px;
+                height: auto;
+
+                path {
+                    stroke: #ADADAD;
+                    opacity: 1;
+                }
+            }
+
+            &:hover {
+                transition: .3s linear;
+
+                svg {
+                    path {
+                        stroke: #04b49c;
+                    }
+                }
+            }
+        }
+
+        .embla_next {
+            transform: rotate(-180deg);
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .testimonialsSection {
+
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 60%;
+                        padding-left: 20px;
+
+                        .testBox {
+                            padding: 30px;
+
+                            .testContent {
+                                font-size: 15px;
+                                line-height: 23px;
+                                max-height: 300px;
+                                padding-bottom: 15px;
+                                margin-bottom: 15px;
+                            }
+
+                            .infoTest {
+                                .usesInfo {
+                                    .namee {
+                                        font-size: 16px;
+                                        line-height: 22px;
+                                    }
+
+                                    .job {
+                                        font-size: 14px;
+                                        line-height: 24px;
+                                    }
+                                }
+
+                                .usesIcon {
+                                    svg {
+                                        height: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .embla_container {
+            margin: 30px 0px 0px;
+            gap: 10px;
+
+            div {
+                height: 40px;
+                width: 40px;
+
+                svg {
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .testimonialsSection {
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 60%;
+                        padding-left: 20px;
+
+                        .testBox {
+                            padding: 25px;
+
+                            .testContent {
+                                font-size: 15px;
+                                line-height: 23px;
+                                max-height: 260px;
+                                padding-bottom: 15px;
+                                margin-bottom: 15px;
+                            }
+
+                            .infoTest {
+                                .usesInfo {
+                                    .namee {
+                                        font-size: 16px;
+                                        line-height: 24px;
+                                    }
+
+                                    .job {
+                                        font-size: 14px;
+                                        line-height: 22px;
+                                    }
+                                }
+
+                                .usesIcon {
+                                    svg {
+                                        height: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .embla_container {
+            margin: 30px 0px 0px;
+            gap: 10px;
+
+            div {
+                height: 40px;
+                width: 40px;
+
+                svg {
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .testimonialsSection {
+
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 60%;
+                        padding-left: 20px;
+
+                        .testBox {
+                            padding: 25px;
+
+                            .testContent {
+                                font-size: 14px;
+                                line-height: 23px;
+                                max-height: 260px;
+                                padding-bottom: 15px;
+                                margin-bottom: 15px;
+                            }
+
+                            .infoTest {
+                                .usesInfo {
+                                    .namee {
+                                        font-size: 15px;
+                                        line-height: 22px;
+                                    }
+
+                                    .job {
+                                        font-size: 13px;
+                                        line-height: 22px;
+                                    }
+                                }
+
+                                .usesIcon {
+                                    svg {
+                                        height: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .embla_container {
+            margin: 30px 0px 0px;
+            gap: 10px;
+
+            div {
+                height: 40px;
+                width: 40px;
+
+                svg {
+                    width: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .testimonialsSection {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 60%;
+                        padding-left: 20px;
+
+                        .testBox {
+                            padding: 20px 25px;
+
+                            .testContent {
+                                font-size: 13px;
+                                line-height: 21px;
+                                max-height: 220px;
+                                padding-bottom: 15px;
+                                margin-bottom: 15px;
+                            }
+
+                            .infoTest {
+                                .usesInfo {
+                                    .namee {
+                                        font-size: 15px;
+                                        line-height: 22px;
+                                    }
+
+                                    .job {
+                                        font-size: 13px;
+                                        line-height: 22px;
+                                    }
+                                }
+
+                                .usesIcon {
+                                    svg {
+                                        height: 18px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .embla_container {
+            margin: 30px 0px 0px;
+            gap: 10px;
+
+            div {
+                height: 40px;
+                width: 40px;
+
+                svg {
+                    width: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .testimonialsSection {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 75%;
+                        padding-left: 15px;
+
+                        .testBox {
+                            padding: 20px 20px;
+                            border-radius: 20px;
+
+                            .testContent {
+                                font-size: 12px;
+                                line-height: 20px;
+                                max-height: 200px;
+                                padding-bottom: 15px;
+                                margin-bottom: 15px;
+                            }
+
+                            .infoTest {
+                                .usesInfo {
+                                    .namee {
+                                        font-size: 14px;
+                                        line-height: 22px;
+                                    }
+
+                                    .job {
+                                        font-size: 13px;
+                                        line-height: 22px;
+                                    }
+                                }
+
+                                .usesIcon {
+                                    svg {
+                                        height: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .embla_container {
+            margin: 30px 0px 0px;
+            gap: 15px;
+
+            div {
+                height: 30px;
+                width: 30px;
+
+                svg {
+                    width: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .testimonialsSection {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(10px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 80%;
+                        padding-left: 10px;
+
+                        .testBox {
+                            padding: 20px;
+
+                            .testContent {
+                                font-size: 12px;
+                                line-height: 20px;
+                                max-height: 200px;
+                                padding-bottom: 15px;
+                                padding-top: 15px;
+                                margin-bottom: 15px;
+                                overflow: auto;
+                            }
+
+                            .infoTest {
+                                .usesInfo {
+                                    .namee {
+                                        font-size: 14px;
+                                        line-height: 22px;
+                                    }
+
+                                    .job {
+                                        font-size: 13px;
+                                        line-height: 22px;
+                                    }
+                                }
+
+                                .usesIcon {
+                                    svg {
+                                        height: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .embla_container {
+            margin: 20px 0px 0px;
+            gap: 15px;
+
+            div {
+                height: 30px;
+                width: 30px;
+
+                svg {
+                    width: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .testimonialsSection {
+        .embla {
+            margin-top: 0px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(0px * -1);
+
+                    .embla__slide {
+                        flex: 0 0 100%;
+                        padding-left: 0px;
+
+
+                        .testBox {
+                            padding: 20px;
+                            border-radius: 20px;
+
+                            .testContent {
+                                font-size: 13px;
+                                line-height: 22px;
+                                max-height: 200px;
+                                padding-bottom: 25px;
+                                padding-top: 25px;
+                                margin-bottom: 25px;
+                                overflow: auto;
+                            }
+
+                            .infoTest {
+                                .usesInfo {
+                                    .namee {
+                                        font-size: 13px;
+                                        line-height: 22px;
+                                    }
+
+                                    .job {
+                                        font-size: 13px;
+                                        line-height: 22px;
+                                    }
+                                }
+
+                                .usesIcon {
+                                    svg {
+                                        height: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .embla_container {
+            margin: 20px 0px 0px;
+            gap: 15px;
+
+            div {
+                height: 30px;
+                width: 30px;
+
+                svg {
+                    width: 15px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,398 @@
+.innerServicesSection {
+
+
+    .innerServicesBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        gap: 15px;
+
+        .innerServicesItem {
+            flex: 0 0 calc(33.33% - 15px);
+            background: #FFFFFF;
+            border-radius: 30px;
+            height: 300px;
+            padding: 30px;
+            position: relative;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                background 0.4s ease-in-out,
+                box-shadow 0.3s ease;
+            border: 1px solid #B6C2CC;
+
+            &.columnSixth {
+                flex: 0 0 calc(50% - 15px);
+            }
+
+            h4 {
+                color: #000;
+                font-size: 26px;
+                line-height: 36px;
+                font-weight: 600;
+                transition: font-size 0.3s ease, line-height 0.3s ease;
+                margin-bottom: 10px;
+            }
+
+            p {
+                opacity: 0;
+                transition: opacity 0.3s ease, transform 0.3s ease;
+                transform: translateY(10px);
+                font-size: 18px;
+                line-height: 26px;
+                height: 128px;
+                overflow: auto;
+
+                &::-webkit-scrollbar {
+                    width: 0;
+                }
+            }
+
+            .pointNumber {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: -0.278076px;
+                color: rgba(0, 0, 0, 0.05);
+                position: absolute;
+                right: 30px;
+                bottom: 30px;
+                transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s ease;
+
+            }
+
+            &:hover {
+                background: linear-gradient(9.84deg, #FFFFFF -12.54%, #04b49c 103.72%);
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+                border: 0px;
+
+
+                h4 {
+                    font-size: 30px;
+                    line-height: 38px;
+                }
+
+                p {
+                    color: #000;
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+
+                .pointNumber {
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .innerServicesSection {
+        .innerServicesBox {
+            margin-top: 40px;
+
+            .innerServicesItem {
+                flex: 0 0 calc(33.33% - 15px);
+                border-radius: 24px;
+                height: 280px;
+                padding: 25px;
+                margin-bottom: 25px;
+
+                h4 {
+                    font-size: 32px;
+                    line-height: 42px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                .pointNumber {
+                    font-size: 40px;
+                    line-height: 40px;
+                    right: 25px;
+                    bottom: 25px;
+                }
+
+                &:hover {
+                    h4 {
+                        font-size: 26px;
+                        line-height: 36px;
+                    }
+
+                    .pointNumber {
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .innerServicesSection {
+        .innerServicesBox {
+            margin-top: 30px;
+
+            .innerServicesItem {
+                flex: 0 0 calc(33.33% - 15px);
+                border-radius: 20px;
+                height: 240px;
+                padding: 25px;
+                margin-bottom: 25px;
+
+                h4 {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+
+                p {
+                    font-size: 15px;
+                    line-height: 23px;
+                }
+
+                .pointNumber {
+                    font-size: 40px;
+                    line-height: 40px;
+                    right: 25px;
+                    bottom: 25px;
+                }
+
+                &:hover {
+                    h4 {
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+
+                    .pointNumber {
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .innerServicesSection {
+        .innerServicesBox {
+            margin-top: 30px;
+
+            .innerServicesItem {
+                flex: 0 0 calc(33.33% - 12px);
+                border-radius: 20px;
+                height: 220px;
+                padding: 25px;
+                margin-bottom: 20px;
+
+                h4 {
+                    font-size: 26px;
+                    line-height: 36px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+
+                .pointNumber {
+                    font-size: 35px;
+                    line-height: 35px;
+                    right: 25px;
+                    bottom: 25px;
+                }
+
+                &:hover {
+                    h4 {
+                        font-size: 22px;
+                        line-height: 32px;
+                    }
+
+                    .pointNumber {
+                        font-size: 45px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .innerServicesSection {
+        .innerServicesBox {
+            margin-top: 30px;
+
+            .innerServicesItem {
+                flex: 0 0 calc(33.33% - 10px);
+                border-radius: 15px;
+                height: 200px;
+                padding: 20px;
+                margin-bottom: 15px;
+
+                h4 {
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+
+                .pointNumber {
+                    font-size: 30px;
+                    line-height: 30px;
+                    right: 20px;
+                    bottom: 20px;
+                }
+
+                &:hover {
+                    h4 {
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+
+                    .pointNumber {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .innerServicesSection {
+        .innerServicesBox {
+            margin-top: 30px;
+
+            .innerServicesItem {
+                flex: 0 0 calc(50% - 10px);
+                border-radius: 15px;
+                height: 180px;
+                padding: 20px;
+                margin-bottom: 15px;
+
+                h4 {
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+
+                .pointNumber {
+                    font-size: 30px;
+                    line-height: 30px;
+                    right: 20px;
+                    bottom: 20px;
+                }
+
+                &:hover {
+                    h4 {
+                        font-size: 22px;
+                        line-height: 28px;
+                    }
+
+                    .pointNumber {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .innerServicesSection {
+        .innerServicesBox {
+            margin-top: 30px;
+
+            .innerServicesItem {
+                flex: 0 0 calc(50% - 10px);
+                border-radius: 15px;
+                height: 180px;
+                padding: 20px;
+                margin-bottom: 15px;
+
+                h4 {
+                    font-size: 22px;
+                    line-height: 30px;
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+
+                .pointNumber {
+                    font-size: 28px;
+                    line-height: 28px;
+                    right: 20px;
+                    bottom: 20px;
+                }
+
+                &:hover {
+                    h4 {
+                        font-size: 20px;
+                        line-height: 26px;
+                    }
+
+                    .pointNumber {
+                        font-size: 34px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .innerServicesSection {
+        .innerServicesBox {
+            margin-top: 30px;
+
+            .innerServicesItem {
+                flex: 0 0 calc(100% - 0px);
+                border-radius: 15px;
+                height: 220px;
+                padding: 25px;
+                margin-bottom: 15px;
+
+                h4 {
+                    font-size: 28px;
+                    line-height: 34px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+                .pointNumber {
+                    font-size: 28px;
+                    line-height: 28px;
+                    right: 20px;
+                    bottom: 20px;
+                }
+
+                &:hover {
+                    h4 {
+                        font-size: 22px;
+                        line-height: 26px;
+                    }
+
+                    .pointNumber {
+                        font-size: 34px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,355 @@
+.headerSection {
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0;
+    z-index: 9;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+
+    &.active {
+        position: fixed;
+    }
+
+    .mainLogo {
+        font-size: 20px;
+        color: #04b49c;
+        line-height: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+        position: relative;
+        max-width: 110px;
+
+        span {
+            display: block;
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .super {
+            position: absolute;
+            top: 0px;
+            font-size: 8px;
+            font-weight: 500;
+            border: 1px solid #04b49c;
+            width: 18px;
+            height: 18px;
+            right: 0px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .lastBtn {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        li {
+            margin-left: 10px;
+            text-transform: uppercase;
+
+            div {
+                padding: 0px 10px;
+
+                svg {
+                    display: none;
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .headerSection {
+        height: 75px;
+
+        .mainLogo {
+            font-size: 18px;
+            line-height: 22px;
+            max-width: 95px;
+
+            span {
+                font-size: 26px;
+            }
+
+            .super {
+                font-size: 6px;
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        .lastBtn {
+            li {
+                margin-left: 10px;
+
+                div {
+                    height: 45px;
+                    padding: 0px 10px;
+                    font-size: 14px;
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .headerSection {
+        height: 75px;
+
+        .mainLogo {
+            font-size: 18px;
+            line-height: 22px;
+            max-width: 95px;
+
+            span {
+                font-size: 26px;
+            }
+
+            .super {
+                font-size: 6px;
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        .lastBtn {
+            li {
+                margin-left: 10px;
+
+                div {
+                    height: 45px;
+                    padding: 0px 10px;
+                    font-size: 13px;
+                    min-width: 130px;
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .headerSection {
+        height: 75px;
+
+        .mainLogo {
+            font-size: 18px;
+            line-height: 22px;
+            max-width: 95px;
+
+            span {
+                font-size: 26px;
+            }
+
+            .super {
+                font-size: 6px;
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        .lastBtn {
+            li {
+                margin-left: 10px;
+
+                div {
+                    height: 40px;
+                    padding: 0px 10px;
+                    font-size: 13px;
+                    min-width: 130px;
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .headerSection {
+        height: 75px;
+
+        .mainLogo {
+            font-size: 18px;
+            line-height: 22px;
+            max-width: 95px;
+
+            span {
+                font-size: 26px;
+            }
+
+            .super {
+                font-size: 6px;
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        .lastBtn {
+            li {
+                margin-left: 8px;
+
+                div {
+                    height: 40px;
+                    padding: 0px 8px;
+                    font-size: 12px;
+                    min-width: 120px;
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .headerSection {
+        height: 75px;
+
+        .mainLogo {
+            font-size: 18px;
+            line-height: 22px;
+            max-width: 95px;
+
+            span {
+                font-size: 26px;
+            }
+
+            .super {
+                font-size: 6px;
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        .lastBtn {
+            li {
+                margin-left: 8px;
+
+                div {
+                    font-size: 0px;
+                    min-width: 40px;
+                    height: 40px;
+
+                    span {
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+
+                        svg {
+                            display: block;
+                            width: 15px;
+                            height: auto;
+                        }
+                    }
+
+
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .headerSection {
+        height: 60px;
+
+        .mainLogo {
+            font-size: 18px;
+            line-height: 22px;
+            max-width: 95px;
+
+            span {
+                font-size: 26px;
+            }
+
+            .super {
+                font-size: 6px;
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        .lastBtn {
+            li {
+                margin-left: 8px;
+
+                div {
+                    font-size: 0px;
+                    min-width: 40px;
+                    height: 40px;
+
+                    span {
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+
+                        svg {
+                            display: block;
+                            width: 15px;
+                            height: auto;
+                        }
+                    }
+
+
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .headerSection {
+        height: 60px;
+
+        .mainLogo {
+            font-size: 18px;
+            line-height: 22px;
+            max-width: 95px;
+
+            span {
+                font-size: 26px;
+            }
+
+            .super {
+                font-size: 6px;
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+        .lastBtn {
+            li {
+                margin-left: 8px;
+
+                div {
+                    font-size: 0px;
+                    min-width: 40px;
+                    height: 40px;
+
+                    span {
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+
+                        svg {
+                            display: block;
+                            width: 15px;
+                            height: auto;
+                        }
+                    }
+
+
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,727 @@
+.servicesMainSection {
+    background: linear-gradient(0deg, #f8f8f8 0%, #FFFFFF 100%);
+    padding-bottom: 50px;
+
+    .servicesMainContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .servicesMainItem {
+            flex: 0 0 calc(25% - 10px);
+            position: relative;
+            margin-bottom: 20px;
+            background: #FFFFFF;
+            border: 1px solid rgba(172, 181, 190, 0.5);
+            border-radius: 26px;
+
+            .servicesMainImage {
+                transition: flex 0.5s ease, transform 0.5s ease;
+                height: 355px;
+                width: 100%;
+                position: relative;
+                border-radius: 26px;
+                overflow: hidden;
+                padding: 25px;
+
+                &::before {
+                    content: '';
+                    background: linear-gradient(180deg, #04b49c 0%, rgba(71, 32, 153, 0) 65.56%);
+                    border-radius: 26px;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    transition: opacity 0.5s ease;
+                    z-index: 1;
+                    animation: none;
+                    opacity: 0;
+                }
+
+                &::after {
+                    content: '';
+                    background: linear-gradient(319.4deg, #04b49c 13.78%, #FFFFFF 90.15%);
+                    border-radius: 26px;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    transition: opacity 0.5s ease;
+                    z-index: 0;
+                    animation: none;
+                    opacity: 0;
+                }
+
+                .barLine {
+                    height: 4px;
+                    width: 64px;
+                    background: linear-gradient(278.31deg, #04b49c 3.87%, #FFFFFF 104.29%);
+                    border-radius: 26px;
+                    margin-bottom: 20px;
+                }
+
+                .title {
+                    position: relative;
+                    z-index: 2;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 30px;
+                    letter-spacing: -0.165px;
+                    color: #000000;
+                    margin-bottom: 15px;
+                }
+
+
+                .readMore {
+                    width: 140px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid #000000;
+                    border-radius: 100px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 30px;
+                    letter-spacing: -0.165px;
+
+                    position: absolute;
+                    left: 20px;
+                    bottom: 20px;
+
+                    a {
+                        color: #000000;
+                    }
+                }
+
+                .btnReaMore {
+                    height: 38px;
+                    width: 38px;
+                    background: #000000;
+                    border-radius: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    position: absolute;
+                    bottom: 20px;
+                    right: 20px;
+
+                    svg {
+                        width: 18px;
+                        height: auto;
+
+                        path {
+                            stroke: #fff;
+                        }
+                    }
+                }
+
+                img {
+                    border-radius: 26px;
+                    object-fit: cover;
+                    z-index: 0;
+                    opacity: 1;
+                    transition: opacity 0.5s ease;
+                }
+
+                &:hover {
+                    img {
+                        opacity: 0;
+                        transition: opacity 0.5s ease;
+                    }
+
+                    p {
+                        z-index: 2;
+                        position: relative;
+                        opacity: 1;
+                        color: #000;
+                    }
+
+                    .title {
+                        font-size: 24px;
+                        line-height: 30px;
+                    }
+
+                    .readMore {
+                        z-index: 2;
+                        background: #000;
+                        border-color: #000;
+                        color: #fff;
+
+                        a {
+                            color: #fff;
+                        }
+                    }
+
+                    .btnReaMore {
+                        z-index: 2;
+                        transform: rotate(-45deg);
+                        background: #000;
+
+                        svg {
+                            path {
+                                stroke: #fff;
+                            }
+                        }
+                    }
+
+                    .barLine {
+                        z-index: 2;
+                        position: relative;
+                    }
+
+
+
+                    &::before {
+                        animation: 0.5s ease forwards;
+                        opacity: 1;
+                    }
+
+                    &::after {
+                        opacity: 1;
+                    }
+
+                }
+            }
+
+
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .servicesMainSection {
+        .servicesMainContainer {
+            .servicesMainItem {
+                margin-bottom: 20px;
+                border-radius: 26px;
+
+                .servicesMainImage {
+                    height: 340px;
+                    border-radius: 26px;
+                    padding: 25px;
+
+
+                    .title {
+                        font-size: 20px;
+                        line-height: 28px;
+                    }
+
+
+                    .readMore {
+                        width: 140px;
+                        height: 40px;
+                        font-size: 15px;
+                        line-height: 30px;
+                        left: 20px;
+                        bottom: 20px;
+                    }
+
+                    .btnReaMore {
+                        height: 38px;
+                        width: 38px;
+                        bottom: 20px;
+                        right: 20px;
+
+                        svg {
+                            width: 18px;
+                        }
+                    }
+
+
+
+                    &:hover {
+                        .title {
+                            font-size: 22px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+
+
+                @keyframes shrink {
+
+
+                    100% {
+                        width: 50px;
+                        height: 4px;
+                        top: 102px;
+                        left: 32px;
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .servicesMainSection {
+        .servicesMainContainer {
+            .servicesMainItem {
+                margin-bottom: 20px;
+                border-radius: 23px;
+
+                .servicesMainImage {
+                    height: 320px;
+                    border-radius: 23px;
+                    padding: 25px;
+
+                    &::before,
+                    &::after {
+                        border-radius: 23px;
+                    }
+
+                    .title {
+                        font-size: 18px;
+                        line-height: 24px;
+                        margin-bottom: 10px;
+                    }
+
+                    .barLine {
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 120px;
+                        height: 35px;
+                        font-size: 13px;
+                        line-height: 30px;
+                        left: 20px;
+                        bottom: 20px;
+                    }
+
+                    .btnReaMore {
+                        height: 35px;
+                        width: 35px;
+                        bottom: 20px;
+                        right: 20px;
+
+                        svg {
+                            width: 15px;
+                        }
+                    }
+
+
+
+                    &:hover {
+                        .title {
+                            font-size: 20px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+
+
+                @keyframes shrink {
+
+
+                    100% {
+                        width: 50px;
+                        height: 4px;
+                        top: 92px;
+                        left: 32px;
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .servicesMainSection {
+        .servicesMainContainer {
+            .servicesMainItem {
+                margin-bottom: 20px;
+                border-radius: 20px;
+
+                .servicesMainImage {
+                    height: 280px;
+                    border-radius: 20px;
+                    padding: 20px;
+
+                    &::before,
+                    &::after {
+                        border-radius: 20px;
+                    }
+
+                    .title {
+                        font-size: 17px;
+                        line-height: 24px;
+                        margin-bottom: 10px;
+                    }
+
+                    .barLine {
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 110px;
+                        height: 35px;
+                        font-size: 13px;
+                        line-height: 30px;
+                        left: 20px;
+                        bottom: 20px;
+                    }
+
+                    .btnReaMore {
+                        height: 35px;
+                        width: 35px;
+                        bottom: 20px;
+                        right: 20px;
+
+                        svg {
+                            width: 15px;
+                        }
+                    }
+
+
+
+                    &:hover {
+                        .title {
+                            font-size: 19px;
+                            line-height: 27px;
+                        }
+                    }
+                }
+
+
+                @keyframes shrink {
+
+
+                    100% {
+                        width: 50px;
+                        height: 4px;
+                        top: 85px;
+                        left: 28px;
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .servicesMainSection {
+        .servicesMainContainer {
+            .servicesMainItem {
+                margin-bottom: 20px;
+                border-radius: 15px;
+
+                .servicesMainImage {
+                    height: 260px;
+                    border-radius: 15px;
+                    padding: 15px;
+
+                    &::before,
+                    &::after {
+                        border-radius: 15px;
+                    }
+
+                    .title {
+                        font-size: 16px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .barLine {
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 110px;
+                        height: 35px;
+                        font-size: 13px;
+                        line-height: 30px;
+                        left: 15px;
+                        bottom: 15px;
+                    }
+
+                    .btnReaMore {
+                        height: 30px;
+                        width: 30px;
+                        bottom: 15px;
+                        right: 15px;
+
+                        svg {
+                            width: 12px;
+                        }
+                    }
+
+
+
+                    &:hover {
+                        .title {
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+
+
+                @keyframes shrink {
+
+
+                    100% {
+                        width: 50px;
+                        height: 4px;
+                        top: 75px;
+                        left: 20px;
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .servicesMainSection {
+        .servicesMainContainer {
+            gap: 10px;
+            justify-content: center;
+
+            .servicesMainItem {
+                margin-bottom: 10px;
+                border-radius: 20px;
+                flex: 0 0 calc(33.33% - 10px);
+
+                .servicesMainImage {
+                    height: 260px;
+                    border-radius: 20px;
+                    padding: 20px 15px;
+
+                    &::before,
+                    &::after {
+                        border-radius: 20px;
+                    }
+
+                    .title {
+                        font-size: 16px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .barLine {
+                        margin-bottom: 10px;
+                    }
+
+
+                    .readMore {
+                        width: 110px;
+                        height: 35px;
+                        font-size: 13px;
+                        line-height: 30px;
+                        left: 10px;
+                        bottom: 10px;
+                    }
+
+                    .btnReaMore {
+                        height: 30px;
+                        width: 30px;
+                        bottom: 10px;
+                        right: 10px;
+
+                        svg {
+                            width: 12px;
+                        }
+                    }
+
+
+
+                    &:hover {
+                        .title {
+                            font-size: 18px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+
+
+                @keyframes shrink {
+
+
+                    100% {
+                        width: 50px;
+                        height: 4px;
+                        top: 75px;
+                        left: 25px;
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .servicesMainSection {
+        .servicesMainContainer {
+            gap: 10px;
+            justify-content: center;
+
+            .servicesMainItem {
+                margin-bottom: 10px;
+                border-radius: 15px;
+                flex: 0 0 calc(50% - 10px);
+
+                .servicesMainImage {
+                    height: 240px;
+                    border-radius: 15px;
+                    padding: 20px 20px;
+
+                    &::before,
+                    &::after {
+                        border-radius: 15px;
+                    }
+
+                    .title {
+                        font-size: 17px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .barLine {
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 110px;
+                        height: 35px;
+                        font-size: 13px;
+                        line-height: 30px;
+                        left: 10px;
+                        bottom: 10px;
+                    }
+
+                    .btnReaMore {
+                        height: 30px;
+                        width: 30px;
+                        bottom: 10px;
+                        right: 10px;
+
+                        svg {
+                            width: 12px;
+                        }
+                    }
+
+
+
+                    &:hover {
+                        .title {
+                            font-size: 19px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+
+
+                @keyframes shrink {
+
+
+                    100% {
+                        width: 50px;
+                        height: 4px;
+                        top: 80px;
+                        left: 30px;
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .servicesMainSection {
+        .servicesMainContainer {
+            gap: 10px;
+            justify-content: center;
+
+            .servicesMainItem {
+                margin-bottom: 10px;
+                border-radius: 20px;
+                flex: 0 0 calc(100% - 0px);
+
+                .servicesMainImage {
+                    height: 220px;
+                    border-radius: 20px;
+                    padding: 20px 20px;
+
+                    &::before,
+                    &::after {
+                        border-radius: 20px;
+                    }
+
+                    .title {
+                        font-size: 18px;
+                        line-height: 24px;
+                        margin-bottom: 10px;
+                    }
+
+                    .barLine {
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 120px;
+                        height: 35px;
+                        font-size: 14px;
+                        line-height: 30px;
+                        left: 20px;
+                        bottom: 20px;
+                    }
+
+                    .btnReaMore {
+                        height: 35px;
+                        width: 35px;
+                        bottom: 20px;
+                        right: 20px;
+
+                        svg {
+                            width: 15px;
+                        }
+                    }
+
+
+
+                    &:hover {
+                        .title {
+                            font-size: 20px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+
+
+                @keyframes shrink {
+
+
+                    100% {
+                        width: 50px;
+                        height: 4px;
+                        top: 80px;
+                        left: 25px;
+                    }
+                }
+
+            }
+
+        }
+    }
+}

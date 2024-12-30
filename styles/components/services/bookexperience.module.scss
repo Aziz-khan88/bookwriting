@@ -1,0 +1,20 @@
+.bookexperienceSection {
+    background: linear-gradient(0deg, #f8f8f8 0%, #FFFFFF 100%);
+
+    .bookexperienceContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 40px;
+
+        .bookexperienceItem {
+            flex: 0 0 calc(33.33% - 15px);
+            margin-bottom: 20px;
+            box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 20px;
+            height: 480px;
+        }
+    }
+}
