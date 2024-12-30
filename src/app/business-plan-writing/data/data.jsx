@@ -27,7 +27,7 @@ export const InnerContentData = {
         },
         {
             title: "How much does a business plan writing service cost?",
-            txt: "The cost of a business plan writing service will vary depending on the size and scope of your project. Be sure to get quotes from multiple companies before making a decision, as prices can vary significantly. At Book Writing Cube, we offer various packages set at different prices for your convenience.",
+            txt: "The cost of a business plan writing service will vary depending on the size and scope of your project. Be sure to get quotes from multiple companies before making a decision, as prices can vary significantly. At Book Writing, we offer various packages set at different prices for your convenience.",
         },
 
     ]
@@ -39,7 +39,7 @@ import ProcessImage from "media/services/business-plan-writing/ProcessImage.webp
 export const ProcessData = {
     subtitle: "Our Process",
     title: "Our Streamlined Business Plan Writing Process for Your Success",
-    desc: "If you're looking to start a business but don't know where to begin, the Book Writing Cube can help! Our 5-step process will take you from idea to launch and set you up for success along the way.",
+    desc: "If you're looking to start a business but don't know where to begin, the Book Writing can help! Our 5-step process will take you from idea to launch and set you up for success along the way.",
     ProcessImage: ProcessImage.src
 }
 
@@ -82,7 +82,7 @@ export const InnerServicesData = {
 //  Content Data
 import BannerImage from "media/services/business-plan-writing/Img01.webp"
 export const ContentData = {
-    title: "Bring Your Business to Life with Book Writing Cube's Meticulous Business Plan Writing Services!",
+    title: "Bring Your Business to Life with Book Writing's Meticulous Business Plan Writing Services!",
     desc: "Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!",
     BannerImage: BannerImage.src,
 }

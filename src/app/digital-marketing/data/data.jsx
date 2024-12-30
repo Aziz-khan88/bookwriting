@@ -48,7 +48,7 @@ export const InnerServicesData = {
 import BannerImage from "media/services/digital-marketing/Img01.webp"
 export const ContentData = {
     title: "Whether Bookshelf or Amazon Self Publishing – Our Designs Makes You Stand Out",
-    desc: "Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing Cube.",
+    desc: "Design is the most important aspect when it comes to selling books. We know that might sound like an old cliché, but designing your cover will deliver layout and build intrigue for potential readers; they’ll want more after seeing what’s in store within these pages! So don’t settle on anything less than perfection – let us help make sure every manuscript looks exactly how you envisioned through Book Writing.",
     BannerImage: BannerImage.src,
 }
 

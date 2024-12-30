@@ -4,7 +4,7 @@ import BannerPoster from "media/services/book-formatting/bannerImg.webp"
 export const BannerData = {
     subtitle: "Top- ranked Book Formatting company in US",
     title: "Shaping Your Work into a Stellar Piece of Literary Art with Our Book Formatting Services!",
-    desc: "At Book Writing Cube, we understand that the process of creating a book can be daunting and time-consuming. That's why we offer our professional book formatting services to help you save time and energy. From simple formatting tweaks to complete book redesigns, our team can do it all.We format your book according to industry standards so that it looks its best when published.We also work with you to ensure that your book's interior layout is clear and easy to read.",
+    desc: "At Book Writing, we understand that the process of creating a book can be daunting and time-consuming. That's why we offer our professional book formatting services to help you save time and energy. From simple formatting tweaks to complete book redesigns, our team can do it all.We format your book according to industry standards so that it looks its best when published.We also work with you to ensure that your book's interior layout is clear and easy to read.",
     BannerPoster: BannerPoster.src
 }
 //Servcies
@@ -67,7 +67,7 @@ export const InnerServicesData = {
         },
         {
             title: (<>Quality Assurance</>),
-            txt: "We have a 100% satisfaction guarantee, ensuring that you are happy with our book formatting services. Book Writing Cube has a proven track record of providing high-quality book formatting services to authors worldwide.",
+            txt: "We have a 100% satisfaction guarantee, ensuring that you are happy with our book formatting services. Book Writing has a proven track record of providing high-quality book formatting services to authors worldwide.",
         },
         {
             title: (<>Customer Support</>),
@@ -85,7 +85,7 @@ export const InnerServicesData = {
 import BannerImage from "media/services/book-formatting/Img01.webp"
 export const ContentData = {
     title: "Polish Your Manuscripts To Perfection By Having Us On Your Side!",
-    desc: "Looking for a book formatting service that can help make your dream of being a published author a reality? Look no further than our team of professionals at Book Writing Cube! We offer a wide range of book formatting services that are sure to meet your needs and exceed your expectations. Contact us today to learn more about our services.",
+    desc: "Looking for a book formatting service that can help make your dream of being a published author a reality? Look no further than our team of professionals at Book Writing! We offer a wide range of book formatting services that are sure to meet your needs and exceed your expectations. Contact us today to learn more about our services.",
     BannerImage: BannerImage.src,
 }
 

@@ -53,7 +53,7 @@ export const InnerServicesData = {
     innerServItem: [
         {
             title: (<>Expertise and Creativity</>),
-            txt: "The team at Book Writing Cube has a wealth of experience and creativity, which allows them to produce high-quality book trailer service that will grab attention and get people talking.",
+            txt: "The team at Book Writing has a wealth of experience and creativity, which allows them to produce high-quality book trailer service that will grab attention and get people talking.",
         },
         {
             title: (<>Unique Approach</>),
@@ -83,7 +83,7 @@ export const InnerServicesData = {
 import BannerImage from "media/services/book-trailer/Img01.webp"
 export const ContentData = {
     title: "Strengthen Your Marketing Efforts and Ensure Crazy Sales Of Your Publication With Us!",
-    desc: "At Book Writing Cube, we specialize in creating engaging and visually appealing book trailers for authors and businesses. Our team of skilled professionals has years of experience in video production and graphic design, so you can be confident that your book trailer will be of the highest quality. We understand that a book trailer is one of the most important marketing tools an author has, so we work closely with our clients to ensure their vision is brought to life. We also offer a variety of customization options, i.e., custom comic book video trailer, to make sure that your book trailer is truly unique. Call us to make your book happen with our book trailer services.",
+    desc: "At Book Writing, we specialize in creating engaging and visually appealing book trailers for authors and businesses. Our team of skilled professionals has years of experience in video production and graphic design, so you can be confident that your book trailer will be of the highest quality. We understand that a book trailer is one of the most important marketing tools an author has, so we work closely with our clients to ensure their vision is brought to life. We also offer a variety of customization options, i.e., custom comic book video trailer, to make sure that your book trailer is truly unique. Call us to make your book happen with our book trailer services.",
     BannerImage: BannerImage.src,
 }
 

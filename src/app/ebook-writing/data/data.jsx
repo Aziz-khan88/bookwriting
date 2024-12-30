@@ -39,7 +39,7 @@ import ProcessImage from "media/services/ebook-writing/ProcessImage.webp"
 export const ProcessData = {
     subtitle: "Our Process",
     title: "Ultimate Place for eBook Illustration and Designing",
-    desc: "Book Writing Cube has a team of professional illustrators and designers ready to breathe life into your idea. Our ebook editing service specialization lies in various genres that include:",
+    desc: "Book Writing has a team of professional illustrators and designers ready to breathe life into your idea. Our ebook editing service specialization lies in various genres that include:",
     ProcessImage: ProcessImage.src
 }
 

@@ -4,14 +4,14 @@ import BannerPoster from "media/services/book-cover-design/bannerImg.webp"
 export const BannerData = {
     subtitle: "Top- ranked Blogs Writing company in US",
     title: "Communicate About The Story Inside With Our Book Cover Design Services!",
-    desc: "Why do you need book cover design services? The answer is simple. Because the first impression matters. If you are an author who wants to expedite your book sales or a business executive who wants to be a cut above the rest, you ought to invest in appealing book cover designs.Book Writing Cube helps you create engaging and professional covers that capture your unique voice and vision.Our mission is to help people share their stories and ideas with the world, and our vision is to be the go- to source for book cover design services.Then why wait ? Call our eBook cover designers and let them take charge of making your book the best - selling publication of all times! Time To Give Your Potential Readers A Taste Of What Your Book Is About Without Spoiling The Plot.",
+    desc: "Why do you need book cover design services? The answer is simple. Because the first impression matters. If you are an author who wants to expedite your book sales or a business executive who wants to be a cut above the rest, you ought to invest in appealing book cover designs.Book Writing helps you create engaging and professional covers that capture your unique voice and vision.Our mission is to help people share their stories and ideas with the world, and our vision is to be the go- to source for book cover design services.Then why wait ? Call our eBook cover designers and let them take charge of making your book the best - selling publication of all times! Time To Give Your Potential Readers A Taste Of What Your Book Is About Without Spoiling The Plot.",
     BannerPoster: BannerPoster.src
 }
 //Servcies
 export const InnerContentData = {
     subtitle: "Our Services",
     title: "Don’t Let Your Questions Pester You Any Longer. We Have Answers To Rein Them In!",
-    desc: "Our book cover design experts go above and beyond to make your book look flawless and attention-grabbing. Whether you are an author who wants design for their books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing Cube sets the bar high with its standard book cover design services and knows what its clients may be thinking of. So, here are some frequently asked questions.",
+    desc: "Our book cover design experts go above and beyond to make your book look flawless and attention-grabbing. Whether you are an author who wants design for their books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing sets the bar high with its standard book cover design services and knows what its clients may be thinking of. So, here are some frequently asked questions.",
     innerServItem: [
         {
             title: "What Makes A Good Book Cover Design?",

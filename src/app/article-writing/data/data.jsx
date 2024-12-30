@@ -45,7 +45,7 @@ export const MainContentData = {
     MainContentItem: [
         {
             title: "Quality",
-            txt: "At Book Writing Cube, we only work with experienced and professional writers who are experts in their field. This ensures that your articles will be of the highest quality and will provide accurate and up-to-date information.",
+            txt: "At Book Writing, we only work with experienced and professional writers who are experts in their field. This ensures that your articles will be of the highest quality and will provide accurate and up-to-date information.",
             Image: IMG01.src
         },
         {
@@ -55,7 +55,7 @@ export const MainContentData = {
         },
         {
             title: "Plagiarism Free",
-            txt: "When you are looking for SEO article writing services, it is important to find one that offers plagiarism-free content. This is something that Book Writing Cube takes pride in offering. All of their articles are written from scratch, so you can be sure that the content is 100% original.",
+            txt: "When you are looking for SEO article writing services, it is important to find one that offers plagiarism-free content. This is something that Book Writing takes pride in offering. All of their articles are written from scratch, so you can be sure that the content is 100% original.",
             Image: IMG03.src
         },
 
@@ -68,7 +68,7 @@ import ProcessImage from "media/services/article-writing/ProcessImage.webp"
 export const ProcessData = {
     subtitle: "Our Process",
     title: "Efficient Article Writing Process Curated For Optimal Results",
-    desc: "Book Writing Cube offers professional and custom article writing services to help businesses reach new heights of success! Here's a closer look at our streamlined process:",
+    desc: "Book Writing offers professional and custom article writing services to help businesses reach new heights of success! Here's a closer look at our streamlined process:",
     ProcessImage: ProcessImage.src
 }
 
@@ -111,7 +111,7 @@ export const InnerServicesData = {
 //  Content Data
 import BannerImage from "media/services/article-writing/Img01.webp"
 export const ContentData = {
-    title: "Get High-Quality and Effective Article Writing Services for Affordable Prices at Book Writing Cube!",
+    title: "Get High-Quality and Effective Article Writing Services for Affordable Prices at Book Writing!",
     desc: "Get in touch with one of our industry experts for more information about our online article writing services and pricing details by leaving your email or phone number below!",
     BannerImage: BannerImage.src,
 }

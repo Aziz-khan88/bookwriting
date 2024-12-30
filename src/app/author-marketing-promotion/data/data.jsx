@@ -11,7 +11,7 @@ export const BannerData = {
 export const InnerContentData = {
     subtitle: "Our Services",
     title: "Combining The Elements of Author Marketing and Public Relations",
-    desc: "In general, the purpose of the author is to entertain the readers with the story, inform them of reality, and persuade them of the truth. But with digital marketing on the rise, this purpose has an additional aspect—to market themselves for readership. The author's skill is reflected in the narrative and style they write in, but their readership is built when they are marketed well. With Book Writing Cube's author promotion services, we create captivation ads for authors. Whether they are Facebook ads for authors or Amazon ads for authors, we deliver!",
+    desc: "In general, the purpose of the author is to entertain the readers with the story, inform them of reality, and persuade them of the truth. But with digital marketing on the rise, this purpose has an additional aspect—to market themselves for readership. The author's skill is reflected in the narrative and style they write in, but their readership is built when they are marketed well. With Book Writing's author promotion services, we create captivation ads for authors. Whether they are Facebook ads for authors or Amazon ads for authors, we deliver!",
     innerServItem: [
         {
             title: "What is author marketing?",
@@ -27,7 +27,7 @@ export const InnerContentData = {
         },
         {
             title: "What are some things I should avoid when marketing my book?",
-            txt: "There are a few things to avoid when marketing a book, such as spamming potential customers or over-hyping your book. It's also important to remember that not everyone will be interested in your book, so don't take rejections personally. Instead, focus on finding the readers who will appreciate your work. Book Writing Cube's team of author marketing experts creates engaging ads for authors and helps expand their reach.",
+            txt: "There are a few things to avoid when marketing a book, such as spamming potential customers or over-hyping your book. It's also important to remember that not everyone will be interested in your book, so don't take rejections personally. Instead, focus on finding the readers who will appreciate your work. Book Writing's team of author marketing experts creates engaging ads for authors and helps expand their reach.",
         },
 
     ]
@@ -39,7 +39,7 @@ import ProcessImage from "media/services/author-marketing-promotion/ProcessImage
 export const ProcessData = {
     subtitle: "Our Process",
     title: "Our Efficient Author Marketing Process",
-    desc: "The Book Writing Cube's 5-step author marketing process is designed to help authors connect with their audience, build a platform, and sell more books.",
+    desc: "The Book Writing's 5-step author marketing process is designed to help authors connect with their audience, build a platform, and sell more books.",
     ProcessImage: ProcessImage.src
 }
 

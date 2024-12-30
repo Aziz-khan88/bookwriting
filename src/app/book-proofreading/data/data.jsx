@@ -4,14 +4,14 @@ import BannerPoster from "media/services/book-proofreading/bannerImg.webp"
 export const BannerData = {
     subtitle: "Top- ranked book Proofreading company in US",
     title: "Offering You Book Proofreading Services That Turn Your Content Piece From Drab to Fab!",
-    desc: "Don't let your writing be weakened by mistakes that may go under your nose. Our professional proofreaders are all set to catch any typos, grammatical errors, or other issues hurting the sentiment of your writing. Book Writing Cube is committed to providing high-quality book proofreading services to help you improve your writing and ensure that your book is error-free.Make your book pleasing to the eyes and get it sold like crazy with our best online proofreading services.We Are The Ones You Need To Let Your Words Flow Well!",
+    desc: "Don't let your writing be weakened by mistakes that may go under your nose. Our professional proofreaders are all set to catch any typos, grammatical errors, or other issues hurting the sentiment of your writing. Book Writing is committed to providing high-quality book proofreading services to help you improve your writing and ensure that your book is error-free.Make your book pleasing to the eyes and get it sold like crazy with our best online proofreading services.We Are The Ones You Need To Let Your Words Flow Well!",
     BannerPoster: BannerPoster.src
 }
 //Servcies
 export const InnerContentData = {
     subtitle: "Our Services",
     title: "Answers to Some Questions That May Be Whirling Around Your Head!",
-    desc: "Our proofreading experts go above and beyond to make your manuscript flawless and attention-grabbing. Whether you are an author who wants to perfect your books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing Cube sets the bar high with its standard proofreading services online and knows what its clients may be thinking of. So, here are some frequently asked questions by clients.",
+    desc: "Our proofreading experts go above and beyond to make your manuscript flawless and attention-grabbing. Whether you are an author who wants to perfect your books or a business person who wants their publications to look professional, we serve as the perfect stop to pause. Book Writing sets the bar high with its standard proofreading services online and knows what its clients may be thinking of. So, here are some frequently asked questions by clients.",
     innerServItem: [
         {
             title: "How Much Does A Book Proofreading Service Cost?",
@@ -72,7 +72,7 @@ export const InnerServicesData = {
         },
         {
             title: (<>All Ears to You</>),
-            txt: "Sun never sets on Book Writing Cube. We welcome queries of our valued clients with the laser-speedy response and ensure their concerns are addressed at the earliest possible.",
+            txt: "Sun never sets on Book Writing. We welcome queries of our valued clients with the laser-speedy response and ensure their concerns are addressed at the earliest possible.",
         },
     ]
 }

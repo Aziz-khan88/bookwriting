@@ -36,7 +36,7 @@ const WhyChoose = () => {
                 <Row className="h-100">
                     <Col xl={5} lg={6} md={12} className="">
                         <div className="subtitle">Why Choose</div>
-                        <h2>Why Choose Book Writing Cube?</h2>
+                        <h2>Why Choose Book Writing?</h2>
                         <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
                         <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
                         <ButtonCommon txt="Free Consultation" />

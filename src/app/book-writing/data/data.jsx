@@ -81,7 +81,7 @@ export const ContentData = {
 export const BookExperienceData = {
     subtitle: "Our Experience",
     title: "Fine-toothed book writing to give your readers a truly immersive experience with the help of our team of professional eBook writers!",
-    desc: "Book Writing Cube is a portal to bring your thoughts, ideas, or dreams to paper for your readers.",
+    desc: "Book Writing is a portal to bring your thoughts, ideas, or dreams to paper for your readers.",
 
     BookExperienceItem: [
         {

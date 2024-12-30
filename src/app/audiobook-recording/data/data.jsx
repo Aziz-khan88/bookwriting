@@ -11,11 +11,11 @@ export const BannerData = {
 export const InnerContentData = {
     subtitle: "Our Services",
     title: "Competent and Impeccable Audiobook Production Service for Your Success",
-    desc: "Audiobooks are becoming more and more popular as time goes on. You can listen to an audiobook while you're working out, cleaning the house, or driving. They're also perfect for people who like to read but don't have a lot of time. Book Writing Cube offers audiobook recording services for just that reason. Here is where your books are brought to life!",
+    desc: "Audiobooks are becoming more and more popular as time goes on. You can listen to an audiobook while you're working out, cleaning the house, or driving. They're also perfect for people who like to read but don't have a lot of time. Book Writing offers audiobook recording services for just that reason. Here is where your books are brought to life!",
     innerServItem: [
         {
             title: "What is the best audiobook service?",
-            txt: "As an author, you want your audiobook to be perfect. You want every word to be clear, and you want the overall performance to be engaging. This is why so many authors choose Book Writing Cube's audiobook recording service. We are the best in the industry for a reason. Our team of professional voice actors has years of experience performing audiobooks. They know how to bring a book to life, and they know how to make sure every word is clear. Plus, they're just plain fun to listen to!",
+            txt: "As an author, you want your audiobook to be perfect. You want every word to be clear, and you want the overall performance to be engaging. This is why so many authors choose Book Writing's audiobook recording service. We are the best in the industry for a reason. Our team of professional voice actors has years of experience performing audiobooks. They know how to bring a book to life, and they know how to make sure every word is clear. Plus, they're just plain fun to listen to!",
         },
         {
             title: "What are the benefits of audiobook recording services?",
@@ -23,7 +23,7 @@ export const InnerContentData = {
         },
         {
             title: "What is the cheapest audiobook service?",
-            txt: "Book Writing Cube offers affordable audiobook recording services that are perfect for any author. Our packages are designed to fit any budget, and we offer a variety of services that will make your audiobook recording process easy and hassle-free. We understand that not every author has the time or resources to record their own audiobook. That's why we offer professional recording services that will make your audiobook sound great. We also offer editing and mastering services to ensure that your audiobook is ready for distribution.",
+            txt: "Book Writing offers affordable audiobook recording services that are perfect for any author. Our packages are designed to fit any budget, and we offer a variety of services that will make your audiobook recording process easy and hassle-free. We understand that not every author has the time or resources to record their own audiobook. That's why we offer professional recording services that will make your audiobook sound great. We also offer editing and mastering services to ensure that your audiobook is ready for distribution.",
         },
         {
             title: "What are audiobook recording rates?",
@@ -83,7 +83,7 @@ export const InnerServicesData = {
 //  Content Data
 import BannerImage from "media/services/audiobook-recording/Img01.webp"
 export const ContentData = {
-    title: "Dive into The New Era of Audiobooks with Book Writing Cube's High-Quality Audiobook Recording Services Today!",
+    title: "Dive into The New Era of Audiobooks with Book Writing's High-Quality Audiobook Recording Services Today!",
     desc: "Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!",
     BannerImage: BannerImage.src,
 }

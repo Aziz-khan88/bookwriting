@@ -4,14 +4,14 @@ import BannerPoster from "media/services/web-content-writing/bannerImg.webp"
 export const BannerData = {
     subtitle: "Top- ranked Web Content Writing company in US",
     title: "Web Content Writing Services To Help You Drive Traffic and Engagement To Your Business!",
-    desc: "To help you appeal to your target audience, Book Writing Cube has set forth its professional web content writing services complimented with high-intent keywords. With our web writing services, you can now improve your online presence and web traffic, and conversion.If you struggle with writing or are not a native English speaker, it can be difficult to produce high- quality content on your own.But when you outsource your web content writing needs to us, you can be sure that you'll receive well-written, error-free content ensured to meet your standards and the expectations of your audience.Call Our Website Content Writer To Capture The Attention Of Your Readers And Hold Their Interest Throughout The Entirety Of Your Piece!",
+    desc: "To help you appeal to your target audience, Book Writing has set forth its professional web content writing services complimented with high-intent keywords. With our web writing services, you can now improve your online presence and web traffic, and conversion.If you struggle with writing or are not a native English speaker, it can be difficult to produce high- quality content on your own.But when you outsource your web content writing needs to us, you can be sure that you'll receive well-written, error-free content ensured to meet your standards and the expectations of your audience.Call Our Website Content Writer To Capture The Attention Of Your Readers And Hold Their Interest Throughout The Entirety Of Your Piece!",
     BannerPoster: BannerPoster.src
 }
 //Servcies
 export const InnerContentData = {
     subtitle: "Our Services",
     title: "SEO Content Writing Helps Your Possession Be People’s Favorite!",
-    desc: "We help people outshine and be a cut above the rest. With professionally written website content infused with relevant keywords, Book Writing Cube sets the stage for business success. Content is the KING; thus, we strive to turn the potential customers into die-hard followers with the power of Content.",
+    desc: "We help people outshine and be a cut above the rest. With professionally written website content infused with relevant keywords, Book Writing sets the stage for business success. Content is the KING; thus, we strive to turn the potential customers into die-hard followers with the power of Content.",
     innerServItem: [
         {
             title: "What Is Web Content Writing?",
@@ -48,7 +48,7 @@ export const ProcessData = {
 export const InnerServicesData = {
     //  column: "yes",
     subtitle: "Our Services Offer",
-    title: "Why Book Writing Cube Is Perfect For Web Content Writing Services?",
+    title: "Why Book Writing Is Perfect For Web Content Writing Services?",
     desc: "",
     innerServItem: [
         {

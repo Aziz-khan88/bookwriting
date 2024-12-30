@@ -11,7 +11,7 @@ export const BannerData = {
 export const InnerContentData = {
     subtitle: "Our Services",
     title: "Powerful Websites Designed By The Best In The Game!",
-    desc: "As a professional author, it is important to have a website that represents you and your work well. At Book Writing Cube, a leading website designing company, we help you with that. A professional author's website design will help you stand out from the competition and make a great first impression on potential readers and clients. Professional website design services can help you create a website that is perfect for your needs.",
+    desc: "As a professional author, it is important to have a website that represents you and your work well. At Book Writing, a leading website designing company, we help you with that. A professional author's website design will help you stand out from the competition and make a great first impression on potential readers and clients. Professional website design services can help you create a website that is perfect for your needs.",
     innerServItem: [
         {
             title: "How can an author website design service help me?",
@@ -98,7 +98,7 @@ export const InnerServicesData = {
 //  Content Data
 import BannerImage from "media/services/author-website-design/Img01.webp"
 export const ContentData = {
-    title: "Create Memorable Digital Experiences for Your Readers with Book Writing Cube's Author Website Design Services!",
+    title: "Create Memorable Digital Experiences for Your Readers with Book Writing's Author Website Design Services!",
     desc: "Get in touch with one of our industry experts for more information about our online blog writing services and pricing details by leaving your email or phone number below!",
     BannerImage: BannerImage.src,
 }
