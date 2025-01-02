@@ -23,6 +23,16 @@
                 color: #04b49c;
                 transition: color 0.3s ease, font-weight 0.3s ease;
             }
+
+            &.active {
+                color: #04b49c;
+
+                .subMenu {
+                    a {
+                        color: #000;
+                    }
+                }
+            }
         }
 
         .subMenu {
@@ -54,17 +64,22 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        color: #000;
 
                         &:hover {
                             color: #04b49c;
                         }
+
+
                     }
+
 
                     &.active {
                         a {
                             color: #04b49c
                         }
                     }
+
                 }
             }
         }
