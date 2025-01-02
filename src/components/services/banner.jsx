@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/banner.module.scss"
 import Image from "next/image"
+import ContactFrom from "@/src/components/contactfrom"
 
 const Banner = ({ data }) => {
     return (
@@ -21,7 +22,13 @@ const Banner = ({ data }) => {
                         </ul>
                     </Col>
                     <Col lg={6} md={6} className={`${styles.bannerImg} my-auto`}>
-                        <Image src={data.BannerPoster} alt="Book Writing Services" width={960} height={600} />
+                        {data.contact === "yes" ?
+                            <div className={styles.contactSection}>
+                                <ContactFrom />
+                            </div>
+                            :
+                            <Image src={data.BannerPoster} alt="Book Writing Services" width={960} height={600} />
+                        }
                     </Col>
                 </Row>
             </Container>

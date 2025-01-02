@@ -27,6 +27,20 @@
             border-radius: 30px;
         }
     }
+
+    .contactSection {
+        max-width: 450px;
+        padding: 25px;
+        margin-left: auto;
+        background: #f8f8f8;
+        border: 1px solid #acb5be80;
+        border-radius: 10px;
+
+        input,
+        textarea {
+            background: transparent;
+        }
+    }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {

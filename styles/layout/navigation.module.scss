@@ -29,12 +29,13 @@
             display: none;
             position: absolute;
             top: 70px;
-            left: 0px;
+            left: -50%;
             height: 0px;
-            width: 500px;
+            width: 900px;
             background-color: #fff;
             box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
             color: #fff;
+
 
 
             .MenuListing {
@@ -43,21 +44,25 @@
                 padding: 20px;
 
                 .MenuList {
-                    flex: 0 0 50%;
+                    flex: 0 0 33.33%;
                     margin-bottom: 0px;
                     height: 40px;
                     display: flex;
                     align-items: center;
 
                     a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
                         &:hover {
-                            color: red;
+                            color: #04b49c;
                         }
                     }
 
                     &.active {
                         a {
-                            color: red;
+                            color: #04b49c
                         }
                     }
                 }

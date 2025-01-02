@@ -2,7 +2,7 @@ import styles from "@/styles/components/projects.module.scss"
 import Image from "next/image"
 import Link from "next/link"
 import { Col, Container, Row } from 'react-bootstrap'
-import { ArrowIcon } from "../app/app-constants"
+import { ArrowIcon } from "@/src/app/app-constants"
 
 
 const ProjectsBox = ({ data }) => {

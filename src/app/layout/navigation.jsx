@@ -178,8 +178,8 @@ const Navigation = () => {
             </li>
             <li><Link href="/pricing">Pricing</Link></li>
             <li><Link href="/portfolio">Portfolio</Link></li>
-            <li><Link href="#">Blog</Link></li>
-            <li><Link href="#">Contact Us</Link></li>
+            <li><Link href="/blogs">Blog</Link></li>
+            <li><Link href="/contact-us">Contact Us</Link></li>
         </ul>
     )
 }

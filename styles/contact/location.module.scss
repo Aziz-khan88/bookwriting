@@ -1,0 +1,55 @@
+.locationSection {
+    .locationContainer {
+        margin-top: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .locationItem {
+            background: linear-gradient(0deg, #f8f8f8 0%, #FFFFFF 100%);
+            flex: 0 0 33.33%;
+            height: 260px;
+            background: linear-gradient(0deg, #f8f8f8 0%, #FFFFFF 100%);
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #acb5be80;
+
+            .name {
+                font-size: 30px;
+                font-weight: 600;
+                color: #04b49c;
+                margin-bottom: 0px;
+            }
+
+            .office {
+                font-size: 13px;
+                font-weight: 500;
+                color: #707780;
+                margin-bottom: 10px;
+            }
+
+            .location {
+                font-size: 16px;
+                font-weight: 500;
+                color: #000;
+                margin-bottom: 10px;
+            }
+
+            a {
+                font-size: 16px;
+                font-weight: 500;
+                color: #707780;
+                margin-bottom: 5px;
+                display: block;
+
+                &:hover {
+                    color: #04b49c;
+                }
+            }
+        }
+
+    }
+}
