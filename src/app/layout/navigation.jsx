@@ -61,8 +61,8 @@ const Navigation = () => {
     };
     return (
         <ul className={styles.mainNavigations}>
-            <li><Link href="#">Home</Link></li>
-            <li><Link href="#">About Us</Link></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/about-us">About Us</Link></li>
             <li className={isSubmenuActive() ? styles.active : ""}>
                 <Link href="#" aria-label="Services Page">Services</Link>
                 <div className={styles.subMenu} >
@@ -176,8 +176,8 @@ const Navigation = () => {
                     </div>
                 </div>
             </li>
-            <li><Link href="#">Pricing</Link></li>
-            <li><Link href="#">Portfolio</Link></li>
+            <li><Link href="/pricing">Pricing</Link></li>
+            <li><Link href="/portfolio">Portfolio</Link></li>
             <li><Link href="#">Blog</Link></li>
             <li><Link href="#">Contact Us</Link></li>
         </ul>

@@ -22,14 +22,9 @@
         }
     }
 
-    .videoBox {
-        height: auto;
-        width: auto;
-        position: relative;
-
-        .bannerVideo {
-            width: 100%;
-            height: auto;
+    .bannerImg {
+        img {
+            border-radius: 30px;
         }
     }
 }

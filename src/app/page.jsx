@@ -7,6 +7,7 @@ import CtaServices from "@/src/app/home/cta";
 import Testimonials from "@/src/app/home/testimonials";
 import Reviews from "@/src/app/home/reviews";
 import Portfolio from "@/src/app/home/portfolio";
+import { TestimonialData } from "@/src/app/home/data/data";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       <ServicesMain />
       <ContentSection />
       <Portfolio />
-      <Testimonials />
+      <Testimonials data={TestimonialData} />
       <CtaServices />
       <Reviews />
     </>
