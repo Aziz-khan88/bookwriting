@@ -1,4 +1,11 @@
 .innerServicesContent {
+    .bgImg {
+        img {
+            height: 400px;
+            width: auto;
+        }
+    }
+
     .tableSection {
         margin-top: 100px;
 
@@ -35,37 +42,84 @@
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
-    .innerServicesContent {}
+    .innerServicesContent {
+        .bgImg {
+            img {
+                height: 400px;
+                width: auto;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
-    .innerServicesContent {}
+    .innerServicesContent {
+        .bgImg {
+            img {
+                height: 380px;
+                width: auto;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
-    .innerServicesContent {}
+    .innerServicesContent {
+        .bgImg {
+            img {
+                height: 380px;
+                width: auto;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 900px) and (max-width:1099px) {
-    .innerServicesContent {}
+    .innerServicesContent {
+        .bgImg {
+            img {
+                height: 320px;
+                width: auto;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width:899px) {
-    .innerServicesContent {}
+    .innerServicesContent {
+        .bgImg {
+            img {
+                height: auto;
+                width: auto;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width:767px) {
     .innerServicesContent {
-        img {
-            margin-top: 30px;
+        .bgImg {
+            text-align: center;
+            margin-top: 20px;
+
+            img {
+                height: 300px;
+                width: auto;
+            }
         }
     }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
     .innerServicesContent {
-        img {
-            margin-top: 30px;
+        .bgImg {
+            text-align: center;
+            margin-top: 20px;
+
+            img {
+                height: 280px;
+                width: auto;
+            }
         }
     }
 }

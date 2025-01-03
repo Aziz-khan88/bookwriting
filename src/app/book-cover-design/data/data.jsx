@@ -3,8 +3,8 @@ import BannerPoster from "media/services/book-cover-design/bannerImg.webp"
 
 export const BannerData = {
     subtitle: "Top- ranked Blogs Writing company in US",
-    title: "Communicate About The Story Inside With Our Book Cover Design Services!",
-    desc: "Why do you need book cover design services? The answer is simple. Because the first impression matters. If you are an author who wants to expedite your book sales or a business executive who wants to be a cut above the rest, you ought to invest in appealing book cover designs.Book Writing helps you create engaging and professional covers that capture your unique voice and vision.Our mission is to help people share their stories and ideas with the world, and our vision is to be the go- to source for book cover design services.Then why wait ? Call our eBook cover designers and let them take charge of making your book the best - selling publication of all times! Time To Give Your Potential Readers A Taste Of What Your Book Is About Without Spoiling The Plot.",
+    title: "Showcase Your Story with Our Book Cover Design!",
+    desc: "Why invest in book cover design services? Because first impressions matter. Whether you're an author aiming to boost sales or a business executive striving to stand out, an appealing cover is essential. Book Writing creates professional designs that reflect your unique voice and vision. Let our eBook cover designers craft a cover that captivates readers and drives your book to success. Don’t wait—show your audience what your book is all about without revealing the plot!",
     BannerPoster: BannerPoster.src
 }
 //Servcies

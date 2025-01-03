@@ -3,7 +3,7 @@ import BannerPoster from "media/services/book-formatting/bannerImg.webp"
 
 export const BannerData = {
     subtitle: "Top- ranked Book Formatting company in US",
-    title: "Shaping Your Work into a Stellar Piece of Literary Art with Our Book Formatting Services!",
+    title: "Transform Your Book with Expert Formatting Services!",
     desc: "At Book Writing, we understand that the process of creating a book can be daunting and time-consuming. That's why we offer our professional book formatting services to help you save time and energy. From simple formatting tweaks to complete book redesigns, our team can do it all.We format your book according to industry standards so that it looks its best when published.We also work with you to ensure that your book's interior layout is clear and easy to read.",
     BannerPoster: BannerPoster.src
 }

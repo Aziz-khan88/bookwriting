@@ -3,7 +3,7 @@ import BannerPoster from "media/services/book-writing/bannerImg.webp"
 
 export const BannerData = {
     subtitle: "No.1 Book Writing Company in US",
-    title: "Turn Your Dream Of Becoming A Published Writer With Our Book Writing Services!",
+    title: "Make Your Publishing Dream a Reality with Our Writing Services!",
     desc: "Dream to become a published book writer? Then what are you waiting for? Avail our professional book writing services and manifest your dreams into reality. Talk to our book writing consultant today, and get it all started.",
     BannerPoster: BannerPoster.src
 }

@@ -19,7 +19,7 @@ const MainContent = ({ data }) => {
                             {data.MainContentItem.map((item, index) => (
                                 <div className={styles.mainItem} key={index}>
                                     <div className={styles.mainImgContent}>
-                                        <h2>{item.title}</h2>
+                                        <h4>{item.title}</h4>
                                         <p>{item.txt}</p>
                                     </div>
                                     <div className={styles.mainImgBox}>

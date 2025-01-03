@@ -122,7 +122,7 @@
                 padding: 15px;
 
                 img {
-                    height: 260px;
+                    height: 240px;
                     width: auto;
                 }
 
@@ -156,7 +156,7 @@
                 padding: 15px;
 
                 img {
-                    height: 240px;
+                    height: 180px;
                     width: auto;
                 }
 
@@ -164,12 +164,12 @@
                     margin-top: 20px;
 
                     a {
-                        font-size: 14px;
+                        font-size: 13px;
                         line-height: 28px;
 
                         svg {
-                            width: 14px;
-                            margin-right: 10px;
+                            width: 12px;
+                            margin-right: 5px;
                         }
                     }
                 }
@@ -185,13 +185,13 @@
             margin-top: 20px;
 
             .portfolioItem {
-                flex: 0 0 calc(25% - 10px);
+                flex: 0 0 calc(20% - 10px);
                 margin-bottom: 20px;
                 padding: 15px;
-                margin-bottom: 25px;
+                margin-bottom: 10px;
 
                 img {
-                    height: 240px;
+                    height: 150px;
                     width: auto;
                 }
 
@@ -199,12 +199,12 @@
                     margin-top: 20px;
 
                     a {
-                        font-size: 14px;
-                        line-height: 28px;
+                        font-size: 13px;
+                        line-height: 26px;
 
                         svg {
-                            width: 14px;
-                            margin-right: 10px;
+                            width: 12px;
+                            margin-right: 5px;
                         }
                     }
                 }
@@ -218,14 +218,16 @@
     .portfolioSection {
         .portfolioBox {
             margin-top: 20px;
+            justify-content: center;
+            gap: 10px;
 
             .portfolioItem {
-                flex: 0 0 calc(33.33% - 10px);
+                flex: 0 0 calc(25% - 10px);
                 padding: 15px;
-                margin-bottom: 20px;
+                margin-bottom: 0px;
 
                 img {
-                    height: 220px;
+                    height: 130px;
                     width: auto;
                 }
 
@@ -233,12 +235,12 @@
                     margin-top: 20px;
 
                     a {
-                        font-size: 14px;
+                        font-size: 13px;
                         line-height: 28px;
 
                         svg {
-                            width: 14px;
-                            margin-right: 10px;
+                            width: 12px;
+                            margin-right: 5px;
                         }
                     }
                 }
@@ -256,10 +258,10 @@
             .portfolioItem {
                 flex: 0 0 calc(33.33% - 10px);
                 padding: 15px;
-                margin-bottom: 20px;
+                margin-bottom: 10px;
 
                 img {
-                    height: 220px;
+                    height: 130px;
                     width: auto;
                 }
 
@@ -267,12 +269,12 @@
                     margin-top: 20px;
 
                     a {
-                        font-size: 14px;
+                        font-size: 13px;
                         line-height: 28px;
 
                         svg {
-                            width: 14px;
-                            margin-right: 10px;
+                            width: 12px;
+                            margin-right: 5px;
                         }
                     }
                 }
@@ -293,7 +295,7 @@
                 margin-bottom: 10px;
 
                 img {
-                    height: 200px;
+                    height: 130px;
                     width: auto;
                 }
 
@@ -302,7 +304,7 @@
 
                     a {
                         font-size: 13px;
-                        line-height: 23px;
+                        line-height: 22px;
 
                         svg {
                             width: 12px;

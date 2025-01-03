@@ -3,10 +3,11 @@
 
     .bookexperienceContainer {
         display: flex;
-        align-items: center;
+        align-items: stretch;
         justify-content: space-between;
         flex-wrap: wrap;
         margin-top: 40px;
+        gap: 15px;
 
         .bookexperienceItem {
             flex: 0 0 calc(33.33% - 15px);
@@ -14,7 +15,111 @@
             box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
             padding: 30px;
             border-radius: 20px;
-            height: 480px;
+            flex: 1;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .bookexperienceSection {
+
+        .bookexperienceContainer {
+            margin-top: 30px;
+
+            .bookexperienceItem {
+                flex: 0 0 calc(33.33% - 15px);
+                padding: 30px;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .bookexperienceSection {
+        .bookexperienceContainer {
+            margin-top: 20px;
+
+            .bookexperienceItem {
+                flex: 0 0 calc(33.33% - 15px);
+                padding: 25px;
+                border-radius: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .bookexperienceSection {
+        .bookexperienceContainer {
+            margin-top: 20px;
+
+            .bookexperienceItem {
+                flex: 0 0 calc(33.33% - 15px);
+                padding: 25px;
+                border-radius: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .bookexperienceSection {
+        .bookexperienceContainer {
+            margin-top: 20px;
+
+            .bookexperienceItem {
+                flex: 0 0 calc(33.33% - 15px);
+                padding: 25px;
+                border-radius: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .bookexperienceSection {
+        .bookexperienceContainer {
+            margin-top: 20px;
+
+            .bookexperienceItem {
+                flex: 0 0 calc(50% - 10px);
+                padding: 25px;
+                border-radius: 15px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .bookexperienceSection {
+        .bookexperienceContainer {
+            margin-top: 20px;
+            align-items: center;
+
+            .bookexperienceItem {
+                flex: 0 0 calc(100% - 0px);
+                padding: 25px;
+                border-radius: 15px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .bookexperienceSection {
+        .bookexperienceContainer {
+            margin-top: 20px;
+            align-items: center;
+
+            .bookexperienceItem {
+                flex: 0 0 calc(100% - 0px);
+                padding: 25px;
+                border-radius: 15px;
+                margin-bottom: 5px;
+            }
         }
     }
 }

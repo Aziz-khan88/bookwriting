@@ -8,7 +8,7 @@ const Process = ({ data }) => {
         <section className={`${styles.processSection} p-100`}>
             <Container>
                 <Row>
-                    <Col lg={7} className='m-auto text-center'>
+                    <Col lg={9} xl={8} className='m-auto text-center'>
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>

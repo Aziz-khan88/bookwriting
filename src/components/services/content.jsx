@@ -9,16 +9,17 @@ const ContentSection = ({ data }) => {
         <section className={`p-100 ${styles.innerServicesContent} `}>
             <Container>
                 <Row>
-
-                    <Col md={6} className="my-auto">
+                    <Col md={7} className="my-auto">
                         <div className={styles.contentBox}>
                             <h2>{data.title}</h2>
                             <p>{data.desc}</p>
                             <ButtonCommon txt="Free Consultation" />
                         </div>
                     </Col>
-                    <Col md={6} className="my-auto text-center">
-                        <Image src={data.BannerImage} alt="Book Image" width={600} height={300} />
+                    <Col md={5} className="my-auto text-end">
+                        <div className={styles.bgImg}>
+                            <Image src={data.BannerImage} alt="Book Image" width={600} height={300} />
+                        </div>
                     </Col>
 
                 </Row>

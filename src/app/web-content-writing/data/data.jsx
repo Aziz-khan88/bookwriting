@@ -3,8 +3,8 @@ import BannerPoster from "media/services/web-content-writing/bannerImg.webp"
 
 export const BannerData = {
     subtitle: "Top- ranked Web Content Writing company in US",
-    title: "Web Content Writing Services To Help You Drive Traffic and Engagement To Your Business!",
-    desc: "To help you appeal to your target audience, Book Writing has set forth its professional web content writing services complimented with high-intent keywords. With our web writing services, you can now improve your online presence and web traffic, and conversion.If you struggle with writing or are not a native English speaker, it can be difficult to produce high- quality content on your own.But when you outsource your web content writing needs to us, you can be sure that you'll receive well-written, error-free content ensured to meet your standards and the expectations of your audience.Call Our Website Content Writer To Capture The Attention Of Your Readers And Hold Their Interest Throughout The Entirety Of Your Piece!",
+    title: "Boost Traffic and Engagement with Expert Web Content Writing!",
+    desc: "To help you appeal to your target audience, Book Writing has set forth its professional web content writing services complimented with high-intent keywords. With our web writing services, you can now improve your online presence and web traffic, and conversion.If you struggle with writing or are not a native English speaker, it can be difficult to produce high- quality content on your own.",
     BannerPoster: BannerPoster.src
 }
 //Servcies

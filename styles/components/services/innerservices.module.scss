@@ -1,6 +1,4 @@
 .innerServicesSection {
-
-
     .innerServicesBox {
         display: flex;
         justify-content: center;
@@ -25,13 +23,8 @@
                 flex: 0 0 calc(50% - 15px);
             }
 
-            h4 {
-                color: #000;
-                font-size: 26px;
-                line-height: 36px;
-                font-weight: 600;
+            h3 {
                 transition: font-size 0.3s ease, line-height 0.3s ease;
-                margin-bottom: 10px;
             }
 
             p {
@@ -70,7 +63,7 @@
                 border: 0px;
 
 
-                h4 {
+                h3 {
                     font-size: 30px;
                     line-height: 38px;
                 }
@@ -95,16 +88,10 @@
             margin-top: 40px;
 
             .innerServicesItem {
-                flex: 0 0 calc(33.33% - 15px);
                 border-radius: 24px;
                 height: 280px;
                 padding: 25px;
-                margin-bottom: 25px;
-
-                h4 {
-                    font-size: 32px;
-                    line-height: 42px;
-                }
+                margin-bottom: 5px;
 
                 p {
                     font-size: 16px;
@@ -119,9 +106,9 @@
                 }
 
                 &:hover {
-                    h4 {
+                    h3 {
                         font-size: 26px;
-                        line-height: 36px;
+                        line-height: 32px;
                     }
 
                     .pointNumber {
@@ -139,37 +126,31 @@
             margin-top: 30px;
 
             .innerServicesItem {
-                flex: 0 0 calc(33.33% - 15px);
                 border-radius: 20px;
-                height: 240px;
-                padding: 25px;
+                height: 250px;
+                padding: 20px;
                 margin-bottom: 25px;
-
-                h4 {
-                    font-size: 30px;
-                    line-height: 40px;
-                }
 
                 p {
                     font-size: 15px;
-                    line-height: 23px;
+                    line-height: 22px;
                 }
 
                 .pointNumber {
-                    font-size: 40px;
-                    line-height: 40px;
-                    right: 25px;
-                    bottom: 25px;
+                    font-size: 35px;
+                    line-height: 35px;
+                    right: 20px;
+                    bottom: 20px;
                 }
 
                 &:hover {
-                    h4 {
-                        font-size: 24px;
-                        line-height: 36px;
+                    h3 {
+                        font-size: 22px;
+                        line-height: 28px;
                     }
 
                     .pointNumber {
-                        font-size: 50px;
+                        font-size: 40px;
                     }
                 }
             }
@@ -183,37 +164,30 @@
             margin-top: 30px;
 
             .innerServicesItem {
-                flex: 0 0 calc(33.33% - 12px);
                 border-radius: 20px;
-                height: 220px;
+                height: 250px;
                 padding: 25px;
-                margin-bottom: 20px;
-
-                h4 {
-                    font-size: 26px;
-                    line-height: 36px;
-                }
 
                 p {
-                    font-size: 14px;
+                    font-size: 15px;
                     line-height: 22px;
                 }
 
                 .pointNumber {
                     font-size: 35px;
                     line-height: 35px;
-                    right: 25px;
-                    bottom: 25px;
+                    right: 20px;
+                    bottom: 20px;
                 }
 
                 &:hover {
-                    h4 {
-                        font-size: 22px;
-                        line-height: 32px;
+                    h3 {
+                        font-size: 20px;
+                        line-height: 27px;
                     }
 
                     .pointNumber {
-                        font-size: 45px;
+                        font-size: 40px;
                     }
                 }
             }
@@ -224,23 +198,16 @@
 @media only screen and (min-width: 900px) and (max-width:1099px) {
     .innerServicesSection {
         .innerServicesBox {
-            margin-top: 30px;
+            margin-top: 20px;
 
             .innerServicesItem {
-                flex: 0 0 calc(33.33% - 10px);
-                border-radius: 15px;
-                height: 200px;
-                padding: 20px;
-                margin-bottom: 15px;
-
-                h4 {
-                    font-size: 24px;
-                    line-height: 32px;
-                }
+                border-radius: 20px;
+                height: 250px;
+                padding: 25px;
 
                 p {
-                    font-size: 13px;
-                    line-height: 20px;
+                    font-size: 14px;
+                    line-height: 22px;
                 }
 
                 .pointNumber {
@@ -251,13 +218,13 @@
                 }
 
                 &:hover {
-                    h4 {
-                        font-size: 22px;
-                        line-height: 28px;
+                    h3 {
+                        font-size: 19px;
+                        line-height: 26px;
                     }
 
                     .pointNumber {
-                        font-size: 40px;
+                        font-size: 35px;
                     }
                 }
             }
@@ -268,23 +235,17 @@
 @media only screen and (min-width: 768px) and (max-width:899px) {
     .innerServicesSection {
         .innerServicesBox {
-            margin-top: 30px;
+            margin-top: 20px;
 
             .innerServicesItem {
+                border-radius: 20px;
+                height: 250px;
+                padding: 25px;
                 flex: 0 0 calc(50% - 10px);
-                border-radius: 15px;
-                height: 180px;
-                padding: 20px;
-                margin-bottom: 15px;
-
-                h4 {
-                    font-size: 24px;
-                    line-height: 32px;
-                }
 
                 p {
-                    font-size: 13px;
-                    line-height: 20px;
+                    font-size: 14px;
+                    line-height: 22px;
                 }
 
                 .pointNumber {
@@ -295,13 +256,13 @@
                 }
 
                 &:hover {
-                    h4 {
+                    h3 {
                         font-size: 22px;
                         line-height: 28px;
                     }
 
                     .pointNumber {
-                        font-size: 40px;
+                        font-size: 35px;
                     }
                 }
             }
@@ -312,40 +273,39 @@
 @media only screen and (min-width: 576px) and (max-width:767px) {
     .innerServicesSection {
         .innerServicesBox {
-            margin-top: 30px;
+            margin-top: 20px;
+
 
             .innerServicesItem {
-                flex: 0 0 calc(50% - 10px);
                 border-radius: 15px;
-                height: 180px;
+                height: 250px;
                 padding: 20px;
-                margin-bottom: 15px;
+                flex: 0 0 calc(50% - 10px);
 
-                h4 {
-                    font-size: 22px;
-                    line-height: 30px;
+                &.columnSixth {
+                    flex: 0 0 calc(100% - 0px);
                 }
 
                 p {
-                    font-size: 13px;
-                    line-height: 20px;
+                    font-size: 14px;
+                    line-height: 22px;
                 }
 
                 .pointNumber {
-                    font-size: 28px;
-                    line-height: 28px;
+                    font-size: 30px;
+                    line-height: 30px;
                     right: 20px;
                     bottom: 20px;
                 }
 
                 &:hover {
-                    h4 {
-                        font-size: 20px;
-                        line-height: 26px;
+                    h3 {
+                        font-size: 18px;
+                        line-height: 24px;
                     }
 
                     .pointNumber {
-                        font-size: 34px;
+                        font-size: 35px;
                     }
                 }
             }
@@ -356,40 +316,40 @@
 @media only screen and (min-width: 0px) and (max-width: 575px) {
     .innerServicesSection {
         .innerServicesBox {
-            margin-top: 30px;
+            margin-top: 20px;
+
 
             .innerServicesItem {
-                flex: 0 0 calc(100% - 0px);
-                border-radius: 15px;
-                height: 220px;
+                border-radius: 20px;
+                height: 250px;
                 padding: 25px;
-                margin-bottom: 15px;
+                margin-bottom: 5px;
+                flex: 0 0 calc(100% - 0px);
 
-                h4 {
-                    font-size: 28px;
-                    line-height: 34px;
+                &.columnSixth {
+                    flex: 0 0 calc(100% - 0px);
                 }
 
                 p {
                     font-size: 14px;
-                    line-height: 20px;
+                    line-height: 22px;
                 }
 
                 .pointNumber {
-                    font-size: 28px;
-                    line-height: 28px;
+                    font-size: 30px;
+                    line-height: 30px;
                     right: 20px;
                     bottom: 20px;
                 }
 
                 &:hover {
-                    h4 {
+                    h3 {
                         font-size: 22px;
-                        line-height: 26px;
+                        line-height: 28px;
                     }
 
                     .pointNumber {
-                        font-size: 34px;
+                        font-size: 35px;
                     }
                 }
             }

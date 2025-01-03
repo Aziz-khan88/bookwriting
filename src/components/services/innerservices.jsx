@@ -7,7 +7,7 @@ const InnerServices = ({ data }) => {
         <section className={`p-100 ${styles.innerServicesSection}`}>
             <Container>
                 <Row>
-                    <Col md={7}>
+                    <Col md={10} lg={7}>
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
@@ -21,7 +21,7 @@ const InnerServices = ({ data }) => {
                                     className={`${styles.innerServicesItem} ${data.column === "yes" ? styles.columnSixth : ''}`}
                                     key={index}
                                 >
-                                    <h4>{item.title}</h4>
+                                    <h3>{item.title}</h3>
                                     <p>{item.txt}</p>
                                     <div className={styles.pointNumber}>0{index + 1}</div>
                                 </div>

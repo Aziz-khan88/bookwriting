@@ -1,6 +1,4 @@
 .booktxtSection {
-
-
     .bookContainer {
         display: flex;
         justify-content: space-between;
@@ -65,31 +63,14 @@
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .booktxtSection {
         .bookContainer {
-            margin-top: 40px;
+            margin-top: 30px;
 
             .contentBox {
-                flex: 0 0 calc(33.33% - 15px);
-                border-radius: 24px;
                 height: 280px;
                 padding: 25px;
-                margin-bottom: 25px;
 
-                .pointNumber {
-                    font-size: 40px;
-                    line-height: 40px;
-                    right: 25px;
-                    bottom: 25px;
-                }
-
-                &:hover {
-                    h4 {
-                        font-size: 26px;
-                        line-height: 36px;
-                    }
-
-                    .pointNumber {
-                        font-size: 50px;
-                    }
+                p {
+                    height: 150px;
                 }
             }
         }
@@ -99,42 +80,16 @@
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     .booktxtSection {
         .bookContainer {
-            margin-top: 30px;
+            margin-top: 20px;
 
             .contentBox {
-                flex: 0 0 calc(33.33% - 15px);
-                border-radius: 20px;
-                height: 240px;
+                height: 260px;
                 padding: 25px;
-                margin-bottom: 25px;
-
-                h4 {
-                    font-size: 30px;
-                    line-height: 40px;
-                }
 
                 p {
-                    font-size: 15px;
-                    line-height: 23px;
+                    height: 130px;
                 }
 
-                .pointNumber {
-                    font-size: 40px;
-                    line-height: 40px;
-                    right: 25px;
-                    bottom: 25px;
-                }
-
-                &:hover {
-                    h4 {
-                        font-size: 24px;
-                        line-height: 36px;
-                    }
-
-                    .pointNumber {
-                        font-size: 50px;
-                    }
-                }
             }
         }
     }
@@ -143,42 +98,16 @@
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
     .booktxtSection {
         .bookContainer {
-            margin-top: 30px;
+            margin-top: 20px;
 
             .contentBox {
-                flex: 0 0 calc(33.33% - 12px);
-                border-radius: 20px;
                 height: 220px;
-                padding: 25px;
-                margin-bottom: 20px;
-
-                h4 {
-                    font-size: 26px;
-                    line-height: 36px;
-                }
+                padding: 20px 15px;
 
                 p {
-                    font-size: 14px;
-                    line-height: 22px;
+                    height: 135px;
                 }
 
-                .pointNumber {
-                    font-size: 35px;
-                    line-height: 35px;
-                    right: 25px;
-                    bottom: 25px;
-                }
-
-                &:hover {
-                    h4 {
-                        font-size: 22px;
-                        line-height: 32px;
-                    }
-
-                    .pointNumber {
-                        font-size: 45px;
-                    }
-                }
             }
         }
     }
@@ -187,42 +116,16 @@
 @media only screen and (min-width: 900px) and (max-width:1099px) {
     .booktxtSection {
         .bookContainer {
-            margin-top: 30px;
+            margin-top: 20px;
 
             .contentBox {
-                flex: 0 0 calc(33.33% - 10px);
-                border-radius: 15px;
-                height: 200px;
-                padding: 20px;
-                margin-bottom: 15px;
-
-                h4 {
-                    font-size: 24px;
-                    line-height: 32px;
-                }
+                height: 220px;
+                padding: 20px 15px;
 
                 p {
-                    font-size: 13px;
-                    line-height: 20px;
+                    height: 110px;
                 }
 
-                .pointNumber {
-                    font-size: 30px;
-                    line-height: 30px;
-                    right: 20px;
-                    bottom: 20px;
-                }
-
-                &:hover {
-                    h4 {
-                        font-size: 22px;
-                        line-height: 28px;
-                    }
-
-                    .pointNumber {
-                        font-size: 40px;
-                    }
-                }
             }
         }
     }
@@ -231,42 +134,16 @@
 @media only screen and (min-width: 768px) and (max-width:899px) {
     .booktxtSection {
         .bookContainer {
-            margin-top: 30px;
+            margin-top: 20px;
 
             .contentBox {
-                flex: 0 0 calc(50% - 10px);
-                border-radius: 15px;
-                height: 180px;
-                padding: 20px;
-                margin-bottom: 15px;
-
-                h4 {
-                    font-size: 24px;
-                    line-height: 32px;
-                }
+                height: 260px;
+                padding: 20px 15px;
 
                 p {
-                    font-size: 13px;
-                    line-height: 20px;
+                    height: 150px;
                 }
 
-                .pointNumber {
-                    font-size: 30px;
-                    line-height: 30px;
-                    right: 20px;
-                    bottom: 20px;
-                }
-
-                &:hover {
-                    h4 {
-                        font-size: 22px;
-                        line-height: 28px;
-                    }
-
-                    .pointNumber {
-                        font-size: 40px;
-                    }
-                }
             }
         }
     }
@@ -275,42 +152,28 @@
 @media only screen and (min-width: 576px) and (max-width:767px) {
     .booktxtSection {
         .bookContainer {
-            margin-top: 30px;
+            margin-top: 20px;
 
             .contentBox {
-                flex: 0 0 calc(50% - 10px);
-                border-radius: 15px;
-                height: 180px;
-                padding: 20px;
-                margin-bottom: 15px;
+                flex: 0 0 100%;
+                height: auto;
+                padding: 20px 15px;
+                border-right: 0px solid #B6C2CC;
+                border-bottom: 1px solid #B6C2CC;
 
-                h4 {
-                    font-size: 22px;
-                    line-height: 30px;
+                &:nth-child(even) {
+                    border-right: 0px;
+                }
+
+                &:last-child,
+                &:nth-last-child(2) {
+                    border-bottom: 1px solid #B6C2CC;
                 }
 
                 p {
-                    font-size: 13px;
-                    line-height: 20px;
+                    height: auto;
                 }
 
-                .pointNumber {
-                    font-size: 28px;
-                    line-height: 28px;
-                    right: 20px;
-                    bottom: 20px;
-                }
-
-                &:hover {
-                    h4 {
-                        font-size: 20px;
-                        line-height: 26px;
-                    }
-
-                    .pointNumber {
-                        font-size: 34px;
-                    }
-                }
             }
         }
     }
@@ -319,42 +182,28 @@
 @media only screen and (min-width: 0px) and (max-width: 575px) {
     .booktxtSection {
         .bookContainer {
-            margin-top: 30px;
+            margin-top: 20px;
 
             .contentBox {
-                flex: 0 0 calc(100% - 0px);
-                border-radius: 15px;
-                height: 220px;
-                padding: 25px;
-                margin-bottom: 15px;
+                flex: 0 0 100%;
+                height: auto;
+                padding: 20px 15px;
+                border-right: 0px solid #B6C2CC;
+                border-bottom: 1px solid #B6C2CC;
 
-                h4 {
-                    font-size: 28px;
-                    line-height: 34px;
+                &:nth-child(even) {
+                    border-right: 0px;
+                }
+
+                &:last-child,
+                &:nth-last-child(2) {
+                    border-bottom: 1px solid #B6C2CC;
                 }
 
                 p {
-                    font-size: 14px;
-                    line-height: 20px;
+                    height: auto;
                 }
 
-                .pointNumber {
-                    font-size: 28px;
-                    line-height: 28px;
-                    right: 20px;
-                    bottom: 20px;
-                }
-
-                &:hover {
-                    h4 {
-                        font-size: 22px;
-                        line-height: 26px;
-                    }
-
-                    .pointNumber {
-                        font-size: 34px;
-                    }
-                }
             }
         }
     }

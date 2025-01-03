@@ -20,13 +20,13 @@ const Header = () => {
         <section className={`${styles.headerSection} ${scrolled ? styles.active : ''}`}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col xs={6} sm={3} md={2} lg={2} className="my-auto">
+                    <Col xs={6} sm={6} md={2} lg={2} className="my-auto">
                         <div className={styles.mainLogo}><span>Book</span>Writing <div className={styles.super}>US</div></div>
                     </Col>
                     <Col sm={6} md={8} lg={7} className="d-none d-md-block my-auto">
                         <Navigation />
                     </Col>
-                    <Col xs={6} sm={3} md={2} lg={3} className="my-auto">
+                    <Col xs={6} sm={6} md={2} lg={3} className="my-auto">
                         <ul className={styles.lastBtn}>
                             <li>
                                 <div className="mainButton"><span><FooterPhone />866 - 600-0036</span></div>

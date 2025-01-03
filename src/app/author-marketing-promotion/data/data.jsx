@@ -3,7 +3,7 @@ import BannerPoster from "media/services/author-marketing-promotion/bannerImg.we
 
 export const BannerData = {
     subtitle: "Top- ranked Blogs Writing company in US",
-    title: "Capitalize On Your Visibility and Online Presence with Finest Author Marketing Promotion Services",
+    title: "Boost Your Visibility with Expert Author Marketing Services",
     desc: "Reach a broader audience with author marketing promotion services . Our author book marketing services guarantee you an improved reputation and sales.",
     BannerPoster: BannerPoster.src
 }

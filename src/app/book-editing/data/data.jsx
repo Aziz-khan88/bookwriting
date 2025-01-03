@@ -41,23 +41,23 @@ export const InnerServicesData = {
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     innerServItem: [
         {
-            title: (<>Developmental  <br />Editing</>),
+            title: (<>Developmental Editing</>),
             txt: "We know that every word counts, so we're committed to crafting captivating stories for any length and style. Our talented teams of book writing editor will take on your project from start to finish because no task is too big when you have people like us working together as part of such fantastic Book Editing & formatting services.",
         },
         {
-            title: (<>Editorial <br />Assessment</>),
+            title: (<>Editorial Assessment</>),
             txt: "Proofreading is essential to the success of every project taken up by book editing services. It's an integral part of finishing your manuscript. Online book editor and proofreader look for errors, so you know that all text was correct before sending or releasing documents published by third parties like publishers.",
         },
         {
-            title: (<>Structural  <br />Editing</>),
+            title: (<>Structural Editing</>),
             txt: "n a world where so much information is available, it's essential to make sure what you're putting out there represents your best work. The process of our book editing services includes exploiting the complexities of this process and turning them into success possibilities. It is also an opportunity for professional book editors and publishers who want help perfecting their craftsmanship with every word they type or publish.",
         },
         {
-            title: (<>Book Writing <br />experts</>),
+            title: (<>Book Writing experts</>),
             txt: "Our team includes #1 New York Times- Book Writers and award-winning authors for almost every genre.",
         },
         {
-            title: (<>Copy  <br />Editing</>),
+            title: (<>Copy Editing</>),
             txt: "This type of ebook editing service is also called Mechanical Editing and sometimes referred to as Line Editing. The editor's singular job is to make sure the story has a more 'professional' approach and fill any gaps in the original plot.",
         },
 

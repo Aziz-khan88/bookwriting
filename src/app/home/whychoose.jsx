@@ -41,7 +41,7 @@ const WhyChoose = () => {
                         <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
                         <ButtonCommon txt="Free Consultation" />
                     </Col>
-                    <Col xl={3} lg={3} md={6} className="my-auto offset-xl-1 mt-md-0 mt-4 ">
+                    <Col xl={3} lg={3} md={6} sm={6} className="my-auto offset-xl-1 ">
                         <div className={styles.whyBox}>
                             {WhyChooseList1.map((item, index) => (
                                 <div className={styles.whyItem} key={index}>
@@ -58,7 +58,7 @@ const WhyChoose = () => {
                             ))}
                         </div>
                     </Col>
-                    <Col lg={3} md={6} className={styles.whyBoxMargin}>
+                    <Col lg={3} md={6} sm={6} className={styles.whyBoxMargin}>
                         <div className={styles.whyBox}>
                             {WhyChooseList2.map((item, index) => (
                                 <div className={styles.whyItem} key={index}>

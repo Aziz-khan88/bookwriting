@@ -3,8 +3,8 @@ import BannerPoster from "media/services/book-proofreading/bannerImg.webp"
 
 export const BannerData = {
     subtitle: "Top- ranked book Proofreading company in US",
-    title: "Offering You Book Proofreading Services That Turn Your Content Piece From Drab to Fab!",
-    desc: "Don't let your writing be weakened by mistakes that may go under your nose. Our professional proofreaders are all set to catch any typos, grammatical errors, or other issues hurting the sentiment of your writing. Book Writing is committed to providing high-quality book proofreading services to help you improve your writing and ensure that your book is error-free.Make your book pleasing to the eyes and get it sold like crazy with our best online proofreading services.We Are The Ones You Need To Let Your Words Flow Well!",
+    title: "Transform Your Book with Expert Proofreading Services!",
+    desc: "Ensure your writing shines with our expert proofreading services.We catch typos, grammar errors, and other issues affecting your work.Book Writing is dedicated to delivering high- quality proofreading to make your book error-free, visually appealing, and ready to captivate readers!",
     BannerPoster: BannerPoster.src
 }
 //Servcies
