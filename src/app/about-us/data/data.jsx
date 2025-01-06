@@ -24,13 +24,13 @@ export const MainContentData = {
             Image: IMG01.src
         },
         {
-            title: "Why Choose Book Writing Cube?",
+            title: "Why Choose Book Writing?",
             txt: "Started as a small online organization, expanded the team from a few to a handful of people, and set the office. We put our skills, experience, and everything we knew of book writing, editing, publishing, and marketing to acquire a significant clientele. Soon, we got partnerships with publications houses, reputable editors, and experienced marketers—it was my dream come true!",
             Image: IMG02.src
         },
         {
             title: "Over to you, all the courageous aspiring authors!",
-            txt: "A book is all about the verbal artificiality of reality and how well you convey your idea through this—and this is what we aim to bring out. We respect the efforts of every client, as we know what it takes to write a book. That’s why we try not to disrupt the original idea but make it sound convincing. – A message from teams of The Bookwriting Cube.",
+            txt: "A book is all about the verbal artificiality of reality and how well you convey your idea through this—and this is what we aim to bring out. We respect the efforts of every client, as we know what it takes to write a book. That’s why we try not to disrupt the original idea but make it sound convincing. – A message from teams of The Book writing.",
             Image: IMG03.src
         },
 
