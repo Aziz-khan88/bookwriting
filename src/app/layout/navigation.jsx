@@ -3,7 +3,7 @@ import Link from "next/link"
 import styles from "@/styles/layout/navigation.module.scss"
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { FooterEmail, FooterPhone, SubMenuIcon } from "@/src/app/app-constants";
+import { Burger, Closed, FooterEmail, FooterPhone, SubMenuIcon } from "@/src/app/app-constants";
 const Navigation = () => {
     const pathname = usePathname();
     const [isActive, setIsActive] = useState(false);
@@ -193,9 +193,11 @@ const Navigation = () => {
                 </li>
                 <li onClick={handleClick}
                     className={`${isActive ? 'navIcon active' : 'navIcon'}`}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    {isActive ?
+                        <Closed />
+                        :
+                        <Burger />
+                    }
                 </li>
             </ul>
         </>

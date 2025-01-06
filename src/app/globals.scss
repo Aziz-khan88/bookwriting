@@ -17,18 +17,19 @@ body {
 
   .navIcon {
     display: flex;
-    height: 25px;
+    height: 40px;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
 
-    span {
-      display: block;
-      height: 4px;
-      border-radius: 20px;
-      width: 30px;
-      background: #04b49c;
+    svg {
+      width: auto;
+      height: 40px;
+
+      path {
+        fill: #04b49c
+      }
     }
   }
 

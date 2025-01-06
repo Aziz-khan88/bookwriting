@@ -207,6 +207,47 @@ export function Play() {
         </svg>
     )
 }
+
+export function Burger() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="800"
+            height="800"
+            fill="none"
+            viewBox="0 0 28 28"
+        >
+            <path
+                fill="#000"
+                d="M4 7a1 1 0 0 1 1-1h19a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1M4 14a1 1 0 0 1 1-1h11a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1M5 20a1 1 0 1 0 0 2h17a1 1 0 1 0 0-2z"
+            ></path>
+        </svg>
+    )
+}
+
+
+export function Closed() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="800"
+            height="800"
+            viewBox="0 0 512 512"
+        >
+            <g id="Page-1" fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
+                <g id="work-case" fill="#000" transform="translate(91.52 91.52)">
+                    <path
+                        id="Close"
+                        d="M328.96 30.293 298.667 0 164.48 134.4 30.293 0 0 30.293l134.4 134.188L0 298.667l30.293 30.293 134.187-134.4 134.187 134.4 30.293-30.293-134.4-134.187z"
+                    ></path>
+                </g>
+            </g>
+        </svg>
+    )
+}
+
+
+
 export function SubMenuIcon() {
     return (
         <svg
